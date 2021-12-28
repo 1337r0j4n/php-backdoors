@@ -1,5 +1,6 @@
 # 404 Not Found Shell
 
-Shell name    
-size 
-Defualt pass :: katib 
+|  Shell Name  | size | Downloads |
+| --------------- | --------------- | --------------- |
+| 404 Not Found Shell |  |  |
+
