@@ -1,6 +1,10 @@
-# b374k Shell
+<h1><p align="center"> b374k Shell V 2.8 </p></h1>
+
+## Shell Password : admin
+
+<img src="https://raw.githubusercontent.com/7r0j4ncodeing/web-shells/main/.img/7.PNG">
+
+<img src="https://raw.githubusercontent.com/7r0j4ncodeing/Web-Shells/main/.img/8.PNG">
 
 
-|  Shell Name  | size | Download Shell |
-| --------------- | --------------- | --------------- |
-| b374k Shell |  | [download](https://raw.githubusercontent.com/7r0j4ncodeing/Web-Shells/main/404%20Not%20Found%20Shell/404.php) |
+
