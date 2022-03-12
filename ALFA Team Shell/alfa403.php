@@ -1,5 +1,5 @@
 <?php
-$password = "admin"; 
+$password = "kmkl4y"; 
 session_start();
 error_reporting(0);
 set_time_limit(0);
