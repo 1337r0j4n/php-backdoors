@@ -10,7 +10,7 @@
 | Hac4all Team Shell | [hac4allv2.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Hac4all%20Team%20Shell/hac4allv2.php) | [README.md](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/Hac4all%20Team%20Shell) |
 | M1N1 Upl04d3r | [uploader.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/M1N1%20Upl04d3r/uploader.php) | [README.md](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/M1N1%20Upl04d3r) |
 | Mass Defacer | [mass.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Mass%20Defacer/mass.php) | [README.md](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/Mass%20Defacer) |
-| Minions Cyber Crime Shell | [raw]() | [README.md]() |
+| Minions Cyber Crime Shell | [mcc.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Minions%20Cyber%20Crime%20Shell/mcc.php) / [mini.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Minions%20Cyber%20Crime%20Shell/mini.php) | [README.md](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/Minions%20Cyber%20Crime%20Shell) |
 | Pr1vXSH3EL Shell | [raw]() | [README.md]() |
 | Priv8 Shell | [raw]() | [README.md]() |
 | RAHMAN GANZ X AISYAH CANS Shell | [raw]() | [README.md]() |
