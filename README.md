@@ -8,8 +8,10 @@
 | 22XC Mini Shell | [22xcmini.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/22XC%20Mini%20Shell/22xcmini.php) | [look here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/22XC%20Mini%20Shell) |
 | 22XploiterCrew Shell | [22xploiter.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/22XploiterCrew%20Shell/22xploiter.php) | [look here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/22XploiterCrew%20Shell) |
 | 404 Not Found Shell | [404.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/404%20Not%20Found%20Shell/404.php) | [look here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/404%20Not%20Found%20Shell) |
+| AK-74 Security Team Shell | [ak74.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/AK-74%20Security%20Team%20Shell/ak47.php) | [look here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/AK-74%20Security%20Team%20Shell) |
 | ALFA Team Shell | [alfa.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/ALFA%20Team%20Shell/alfa.php) / [alfa403.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/ALFA%20Team%20Shell/alfa403.php) | [look here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/ALFA%20Team%20Shell) |
 | An0n 3xPloiTeR Shell | [mini.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/An0n%203xPloiTeR%20Shell/mini.php) / [shell.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/An0n%203xPloiTeR%20Shell/shell.php) | [look here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/An0n%203xPloiTeR%20Shell) |
+| Black Eagle Team Shell | [eagle.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Black%20Eagle%20Team%20Shell/eagle.php) | [look here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/Black%20Eagle%20Team%20Shell) |
 | BlackDragon Shell | [shell.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/BlackDragon%20Shell/shell.php) | [look here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/BlackDragon%20Shell) |
 | Cylul007 Shell | [Cylul007.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Cylul007%20Shell/Cylul007.php) | [look here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/Cylul007%20Shell) |
 | Hac4all Team Shell | [hac4allv2.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Hac4all%20Team%20Shell/hac4allv2.php) / [bypass.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Hac4all%20Team%20Shell/bypass.php)| [look here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/Hac4all%20Team%20Shell) |
@@ -29,20 +31,4 @@
 | phpshells.com mini Shell | [mini.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/phpshells.com%20mini%20Shell/mini.php) | [look here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/phpshells.com%20mini%20Shell) |
 | sorean9exploit Shell | [shell.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/sorean9exploit%20Shell/shell.php) | [look here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/sorean9exploit%20Shell) |
 | uploader with pass | [uploader.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/uploader%20with%20pass/uploader.php) | [look here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/uploader%20with%20pass) |
-|  | [raw]() | [README.md]() |
-|  | [raw]() | [README.md]() |
-|  | [raw]() | [README.md]() |
-|  | [raw]() | [README.md]() |
-|  | [raw]() | [README.md]() |
-|  | [raw]() | [README.md]() |
-|  | [raw]() | [README.md]() |
-|  | [raw]() | [README.md]() |
-|  | [raw]() | [README.md]() |
-|  | [raw]() | [README.md]() |
-|  | [raw]() | [README.md]() |
-|  | [raw]() | [README.md]() |
-|  | [raw]() | [README.md]() |
-|  | [raw]() | [README.md]() |
-|  | [raw]() | [README.md]() |
-|  | [raw]() | [README.md]() |
-|  | [raw]() | [README.md]() |
+|  | []() | [look here!]() |
