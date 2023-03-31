@@ -1,4 +1,4 @@
-<h1>Website Shell Backdoors Lists</h1>
+<h1>Website Shell Backdoors List </h1>
 
 | NAME | RAW VIEW | PREVIEW IMG of SHELL INDEX |
 | :--- | :-------:| :-----: |
