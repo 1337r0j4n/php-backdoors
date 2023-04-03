@@ -1,4 +1,13 @@
-# PHP Shell Backdoors List ( collection on internet )
+<div align="center">
+ <h1> PHP Shell Backdoors List ( collection on internet ) </h1>
+</div>
+
+<p align="center">
+<img alt="GitHub User's stars" src="https://img.shields.io/github/stars/1337r0j4n/php-backdoors?style=for-the-badge">
+<img src="https://img.shields.io/github/forks/1337r0j4n/php-backdoors?color=orange&style=for-the-badge">
+<img src="https://img.shields.io/github/issues/1337r0j4n/php-backdoors?color=red&style=for-the-badge">
+<img src="https://img.shields.io/badge/By%20-7r0j4n-lime?style=for-the-badge">
+</p>
 
 | NAME | RAW VIEW | PREVIEW IMG of SHELL INDEX |
 | :--- | :-------:| :-----: |
@@ -49,4 +58,3 @@
 | r57 Shell | [r57.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/r57%20Shell/r57.php) | [view here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/r57%20Shell) |
 | sorean9exploit Shell | [shell.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/sorean9exploit%20Shell/shell.php) | [view here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/sorean9exploit%20Shell) |
 | uploader with pass | [uploader.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/uploader%20with%20pass/uploader.php) | [view here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/uploader%20with%20pass) |
-|  | []() | [view here!]() |
