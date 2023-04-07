@@ -9,9 +9,9 @@
 <img src="https://img.shields.io/badge/By%20-7r0j4n-lime?style=for-the-badge">
 </p>
 
-| NAME | RAW VIEW | PREVIEW IMG of SHELL INDEX |
+| NAME | DOWNLOAD ( RAW / ZIP) | PREVIEW IMG of SHELL INDEX |
 | :--- | :-------:| :-----: |
-| 0byt3m1n1 Shell | [0byt3m1n1.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/0byt3m1n1%20Shell/0byt3m1n1.php) | [viewhere!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/0byt3m1n1%20Shell) |
+| 0byt3m1n1 Shell | [0byt3m1n1.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/0byt3m1n1%20Shell/0byt3m1n1.php) / [0byt3m1n1.zip]() | [viewhere!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/0byt3m1n1%20Shell) |
 | 1337 3YP455 Shell | [1337.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/1337%203YP455%20Shell/1337.php) | [view here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/1337%203YP455%20Shell) |
 | 2018 WSO Shell | [2018wso.php](https://github.com/1337r0j4n/webshells/raw/main/SHELLs/2018%20WSO%20Shell/2018wso.php) | [view here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/2018%20WSO%20Shell) |
 | 22XC Mini Shell | [22xcmini.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/22XC%20Mini%20Shell/22xcmini.php) | [view here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/22XC%20Mini%20Shell) |
