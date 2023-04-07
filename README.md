@@ -9,7 +9,7 @@
 <img src="https://img.shields.io/badge/By%20-7r0j4n-lime?style=for-the-badge">
 </p>
 
-| NAME | DOWNLOAD ( RAW / ZIP) | PREVIEW IMG of SHELL INDEX |
+| NAME | DOWNLOAD ( RAW / ZIP ) | PREVIEW IMG of SHELL INDEX |
 | :--- | :-------:| :-----: |
 | 0byt3m1n1 Shell | [0byt3m1n1.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/0byt3m1n1%20Shell/0byt3m1n1.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/0byt3m1n1%20Shell/0byt3m1n1.zip) | [viewhere!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/0byt3m1n1%20Shell) |
 | 1337 3YP455 Shell | [1337.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/1337%203YP455%20Shell/1337.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/1337%203YP455%20Shell/1337.zip) | [view here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/1337%203YP455%20Shell) |
