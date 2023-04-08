@@ -60,3 +60,9 @@
 | r57 Shell | [r57.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/r57%20Shell/r57.php) \| [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/r57%20Shell/r57.zip) | [view here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/r57%20Shell) |
 | sorean9exploit Shell | [shell.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/sorean9exploit%20Shell/shell.php) \| [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/sorean9exploit%20Shell/sorean9exploit.zip) | [view here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/sorean9exploit%20Shell) |
 | uploader with pass | [uploader.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/uploader%20with%20pass/uploader.php) \| [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/uploader%20with%20pass/uploader.zip) | [view here!](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/uploader%20with%20pass) |
+
+<h3>
+ > easy to download ( raw / zip ? )
+ > preview img of shell index ( what does the shell look like? )
+ > consists most populer shells ( 40+ )
+</h3>
