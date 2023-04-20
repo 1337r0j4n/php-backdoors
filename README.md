@@ -72,5 +72,5 @@
 ### Features 
 - **easy to download** ( raw / zip ? )
 - **preview img of shell index** ( what does the shell look like ? )
-- **consists most populer shells** ( 40+ )
+- **consists most populer shells that were perfectly work** ( 45+ )
 
