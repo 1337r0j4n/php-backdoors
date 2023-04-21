@@ -4,9 +4,9 @@
 
 <p align="center">
 <img alt="GitHub User's stars" src="https://img.shields.io/github/stars/1337r0j4n/php-backdoors?style=for-the-badge">
-<img src="https://img.shields.io/github/forks/1337r0j4n/php-backdoors?color=orange&style=for-the-badge">
-<img src="https://img.shields.io/github/issues/1337r0j4n/php-backdoors?color=red&style=for-the-badge">
-<img src="https://img.shields.io/badge/creator%20-1337r0j4n-lime?style=for-the-badge">
+<img src="https://img.shields.io/github/forks/1337r0j4n/php-backdoors?color=ivory&style=for-the-badge">
+<img src="https://img.shields.io/github/issues/1337r0j4n/php-backdoors?color=pink&style=for-the-badge">
+<img src="https://img.shields.io/badge/creator%20-1337r0j4n-brown?style=for-the-badge">
 </p>
 
 | NAME | DOWNLOAD ( RAW / ZIP ) | PREVIEW IMG of SHELL INDEX |
