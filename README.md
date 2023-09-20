@@ -81,3 +81,4 @@
 - **preview img of shell index** ( what does the shell look like ? )
 - **includes most populer shells that were perfectly work** ( 50+ )
 
+<!-- LOVE STELAR-->
