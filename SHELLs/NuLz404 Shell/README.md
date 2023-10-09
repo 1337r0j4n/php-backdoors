@@ -2,4 +2,3 @@
 
 <img src="https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/.img/103.png">
 <img src="https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/.img/104.png">
-<img src="https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/.img/105.png">
