@@ -101,7 +101,7 @@
   - zip
   - via command line
 - **preview images of shell index**
-  - shell's interface
+  - interface of shell
   - themes
   - details
 - **includes most populer shells that were perfectly work**
@@ -109,4 +109,11 @@
   - all tested
   - perfectly work
 
+ ### the shell that can bypass LiteSpeed and other WAF 
+
+```
+- LiteSpeed Bypass Shell 
+- Pr1v5H3!! Shell 
+- Dadsec WSO Shell
+```
 <!-- GNIHSIHP LLEHSBEW -->
