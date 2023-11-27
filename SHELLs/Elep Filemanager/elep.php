@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+<!-- from https://github.com/1337r0j4n/php-backdoors -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
