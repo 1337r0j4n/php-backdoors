@@ -1,4 +1,5 @@
 <?php
+// from https://github.com/1337r0j4n/php-backdoors
 /*
             By: MR.P4UL / Bo0G3yM4n
             IG: @blackeagleteam.id
