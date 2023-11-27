@@ -1,4 +1,5 @@
 <?php
+// from https://github.com/1337r0j4n/php-backdoors
 session_start();
 @set_time_limit(0);
 
