@@ -1,4 +1,5 @@
 <?php
+// from https://github.com/1337r0j4n/php-backdoors
 
 $free = disk_free_space("/") / 1073741824;
 $total = disk_total_space("/") / 1073741824;
