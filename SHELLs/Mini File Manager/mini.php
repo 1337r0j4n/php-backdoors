@@ -1,4 +1,5 @@
 <?php
+// from https://github.com/1337r0j4n/php-backdoors
 ignore_user_abort(true);
 ini_set('memory_limit', '-1');
 set_time_limit(0);
