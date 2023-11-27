@@ -1,4 +1,5 @@
 <?php
+// from https://github.com/1337r0j4n/php-backdoors
 /*
 Mau Recode Izin Dek! https://t.me/haxorstars
 Anti enc enc club kaya lu nub
