@@ -1,4 +1,5 @@
 <?php
+// from https://github.com/1337r0j4n/php-backdoors
 /*
 [ Tak semua kami ngotak sendiri ]
 Special thanks for Holiq@Indosec
