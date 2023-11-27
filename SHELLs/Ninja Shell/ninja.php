@@ -1,4 +1,5 @@
 <?php
+// from https://github.com/1337r0j4n/php-backdoors
 header("X-XSS-Protection: 0");
 session_start();
 ob_start();
