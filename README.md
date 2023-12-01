@@ -115,13 +115,24 @@
   - all tested
   - perfectly work
 
- ### the shell that can bypass LiteSpeed and other WAF 
+ ### the shells that can bypass LiteSpeed and other WAF 
 
 ```
-- Elep FileManager
-- LiteSpeed Bypass Shell 
-- Pr1v5H3!! Shell 
-- Dadsec WSO Shell
+- Anti Shell
 - APT Probe Shell
+- Dadsec WSO Shell
+- Elep FileManager
+- Gecko Shell
+- LiteSpeed Bypass Shell 
+- Pr1v5H3!! Shell
+- ZERO Shell
+- zerobyte Shell
 ```
+---
+
+> **if this repositories was really helpful for you, then click star, fork button and share to yours friends.**
+
+> **thanks you for visiting <3, Have a pretty day**
+---
+
 <!-- GNIHSIHP LLEHSBEW -->
