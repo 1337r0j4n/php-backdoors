@@ -66,6 +66,7 @@
 | Minions Cyber Crime Shell | [mcc.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Minions%20Cyber%20Crime%20Shell/mcc.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Minions%20Cyber%20Crime%20Shell/mcc.zip) & [mini.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Minions%20Cyber%20Crime%20Shell/mini.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Minions%20Cyber%20Crime%20Shell/mcc.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/Minions%20Cyber%20Crime%20Shell) |
 | Ninja Shell | [ninja.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/Ninja%20Shell/ninja.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Ninja%20Shell/ninja.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/Ninja%20Shell) |
 | NuLz404 Shell | [nulz.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/NuLz404%20Shell/nulz.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/NuLz404%20Shell/nulz.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/NuLz404%20Shell) |
+| Ophellia Webshell | [ophellia.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/Ophellia%20Webshell/ophellia.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Ophellia%20Webshell/ophellia.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/Ophellia%20Webshell) |
 | P0wny Shell | [p0wny.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/P0wny%20Shell/p0wny.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/P0wny%20Shell/p0wny.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/P0wny%20Shell) |
 | Pr1v5H3!! Shell | [privshell.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/Pr1v5H3!!/privshell.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Pr1v5H3!!/privshell.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/Pr1v5H3!!) |
 | Pr1vXSH3EL Shell | [pr1vxsh3el.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Pr1vXSH3EL%20Shell/pr1vxsh3el.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Pr1vXSH3EL%20Shell/pr1vxsh3el.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/Pr1vXSH3EL%20Shell) |
@@ -111,7 +112,7 @@
   - themes
   - details
 - **includes most populer shells that were perfectly work**
-  - over 80+ shells
+  - over 85+ shells
   - all tested
   - perfectly work
 
