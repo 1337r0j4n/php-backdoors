@@ -125,7 +125,6 @@
 
 ```
 - Anti Shell
-- APT Probe Shell
 - Dadsec WSO Shell **
 - Elep FileManager ****
 - Gecko Shell *
@@ -143,5 +142,3 @@
 
 > **thanks you for visiting <3, Have a pretty day**
 ---
-
-<!-- GNIHSIHP LLEHSBEW -->
