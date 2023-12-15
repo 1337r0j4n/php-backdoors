@@ -138,7 +138,7 @@
 
 ---
 
-> **if this repositories was really helpful for you, then click star, fork button and share to yours friends.**
+> **if this repositories was really helpful for you, then click star, fork button and share to your friends.**
 
 > **thanks you for visiting <3, Have a pretty day**
 ---
