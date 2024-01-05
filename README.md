@@ -138,7 +138,11 @@
 
 ---
 
-> **if this repositories was really helpful for you, then click star, fork button and share to your friends.**
-
-> **thanks you for visiting <3, Have a pretty day**
+```
+If you found these repositories to be genuinely helpful,
+we invite you to express your appreciation by clicking the star, fork button, and sharing them with your friends.
+Your support means a lot to us!
+Thank you for visiting and exploring the resources. If you have any questions or suggestions, feel free to reach out.
+Thanks again, and have a fantastic day filled with positivity! <3
+```
 ---
