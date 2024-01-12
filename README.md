@@ -29,6 +29,7 @@
 | ALFA Team Shell | [alfa.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/ALFA%20Team%20Shell/alfa.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/ALFA%20Team%20Shell/alfa.zip) & [alfa403.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/ALFA%20Team%20Shell/alfa403.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/ALFA%20Team%20Shell/alfapass.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/ALFA%20Team%20Shell) |
 | APT Probe Shell | [apt.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/APT%20Probe%20Shell/apt.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/APT%20Probe%20Shell/apt.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/APT%20Probe%20Shell) |
 | AlfaHun73r Shell | [AlfaHun73r.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/AlfaHun73r%20Shell/AlfaHun73r.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/AlfaHun73r%20Shell/AlfaHun73r.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/AlfaHun73r%20Shell) |
+| All of the Directory Mass Defacer | [masser.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/All%20of%20the%20Directory%20Mass%20Defacer/masser.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/All%20of%20the%20Directory%20Mass%20Defacer/masser.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/All%20of%20the%20Directory%20Mass%20Defacer)|
 | An0n 3xPloiTeR Shell | [mini.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/An0n%203xPloiTeR%20Shell/mini.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/An0n%203xPloiTeR%20Shell/mini.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/An0n%203xPloiTeR%20Shell) |
 | Anon Sec Shell | [anonsec.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/Anon%20Sec%20Shell/anonsec.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Anon%20Sec%20Shell/anonsec.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/Anon%20Sec%20Shell) |
 | Anonim Us Shell | [anonim-us.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/Anonim%20Us%20Shell/anonim-us.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Anonim%20Us%20Shell/anonim-us.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/Anonim%20Us%20Shell) |
@@ -110,12 +111,12 @@
   - raw
   - zip
   - via command line
-- **preview images of shell index**
+- **preview the images of shell index**
   - interface of shell
   - themes
   - details
 - **includes most populer shells that were perfectly work**
-  - over 85+ shells
+  - over 90+ shells
   - all tested
   - perfectly work
 
@@ -134,7 +135,7 @@
 - ZERO Shell *
 - zerobyte Shell **
 ```
-> \* mean the most recommend shell that i request :D
+> \* mean the most recommended shell that I should use. :D
 
 ---
 
