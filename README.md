@@ -115,7 +115,7 @@
   - interface of shell
   - themes
   - details
-- **includes most populer shells that were perfectly work**
+- **includes most populer shells that work perfectly**
   - over 90+ shells
   - all tested
   - perfectly work
