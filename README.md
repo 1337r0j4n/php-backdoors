@@ -1,7 +1,7 @@
 <!-- make with full of love <3 -->
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/.img/l0g0.jpg">
+<img src="https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/.img/l0g0.png">
 </p>
 
 <p align="center">
