@@ -59,6 +59,7 @@
 | IndoXploit Shell | [indoxploit.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/IndoXploit%20Shell/indoxploit.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/IndoXploit%20Shell/idx.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/IndoXploit%20Shell) |
 | Kelelawar Cyber Team Shell | [kelelawar.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/Kelelawar%20Cyber%20Team%20Shell/kelelawar.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Kelelawar%20Cyber%20Team%20Shell/kelelawar.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/Kelelawar%20Cyber%20Team%20Shell) |
 | LOLZ Shell | [lolz.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/LOLZ%20Shell/lolz.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/LOLZ%20Shell/lolz.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/LOLZ%20Shell) |
+| LeetGh0sts's BYPASS SHELL | [bypass.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/LeetGh0sts's%20BYPASS%20SHELL/bypass.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/LeetGh0sts's%20BYPASS%20SHELL/bypass.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/LeetGh0sts's%20BYPASS%20SHELL) |
 | LiteSpeed Bypass Shell | [litespeed.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/LiteSpeed%20Bypass%20Shell/LiteSpeed.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/LiteSpeed%20Bypass%20Shell/LiteSpeed.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/LiteSpeed%20Bypass%20Shell) |
 | M1N1 Upl04d3r | [uploader.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/M1N1%20Upl04d3r/uploader.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/M1N1%20Upl04d3r/uploader.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/M1N1%20Upl04d3r) |
 | Mad Tools Shell| [mad.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/Mad%20Tools%20Shell/mad.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Mad%20Tools%20Shell/mad.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/Mad%20Tools%20Shell) |
@@ -125,13 +126,13 @@
  ### the shells that can bypass WAF
 
 ```
-- Anti Shell
 - Dadsec WSO Shell **
 - Elep FileManager ****
 - Gecko Shell *
 - Ultra Shell *
-- LiteSpeed Bypass Shell *****
-- Pr1v5H3!! Shell ****
+- LiteSpeed Bypass Shell ***
+- LeetGh0sts's BYPASS SHELL *****
+- Pr1v5H3!! Shell ***
 - ZERO Shell *
 - zerobyte Shell **
 ```
