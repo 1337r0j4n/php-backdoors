@@ -70,15 +70,15 @@
 | One liner Mini Shell | [oneliner-mini.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/One%20Liner%20Mini%20Shell/onliner-mini.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/One%20Liner%20Mini%20Shell/onliner-mini.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/One%20Liner%20Mini%20Shell) |
 | Ophellia Webshell | [ophellia.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/Ophellia%20Webshell/ophellia.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Ophellia%20Webshell/ophellia.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/Ophellia%20Webshell) |
 | P0wny Shell | [p0wny.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/P0wny%20Shell/p0wny.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/P0wny%20Shell/p0wny.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/P0wny%20Shell) |
-| Pr1v5H3!! Shell | [privshell.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/Pr1v5H3!!/privshell.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Pr1v5H3!!/privshell.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/Pr1v5H3!!) |
+| Pr1v5H3!! Shell *** | [privshell.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/Pr1v5H3!!/privshell.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Pr1v5H3!!/privshell.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/Pr1v5H3!!) |
 | Pr1vXSH3EL Shell | [pr1vxsh3el.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Pr1vXSH3EL%20Shell/pr1vxsh3el.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Pr1vXSH3EL%20Shell/pr1vxsh3el.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/Pr1vXSH3EL%20Shell) |
 | Priv8 Shell | [priv8.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Priv8%20Shell/priv8.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Priv8%20Shell/priv8.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/Priv8%20Shell) |
 | RC Shell | [rc.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/RC%20Shell/rc.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/RC%20Shell/RC.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/RC%20Shell) |
 | Rebirth Haxor Shell | [haxor.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/Rebirth%20Haxor%20Shell/haxor.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Rebirth%20Haxor%20Shell/haxor.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/Rebirth%20Haxor%20Shell) |
 | Sample Uploader | [uploader.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Sample%20Uploader/uploader.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Sample%20Uploader/uploader.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/Sample%20Uploader) |
-| Tiny File Manager Shell | [tinny.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Tiny%20File%20Manager%20Shell/tinny.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Tiny%20File%20Manager%20Shell/tinny.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/Tiny%20File%20Manager%20Shell) |
-| ULTRA Shell | [ultra.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/ULTRA%20Shell/ultra.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/ULTRA%20Shell/ultra.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/ULTRA%20Shell) |
-| Dadsec WSO Shell | [wso.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/WSO%20Shell/wso.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/WSO%20Shell/wso.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/WSO%20Shell) |
+| Tiny File Manager Shell * | [tinny.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Tiny%20File%20Manager%20Shell/tinny.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Tiny%20File%20Manager%20Shell/tinny.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/Tiny%20File%20Manager%20Shell) |
+| ULTRA Shell * | [ultra.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/ULTRA%20Shell/ultra.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/ULTRA%20Shell/ultra.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/ULTRA%20Shell) |
+| Dadsec WSO Shell *** | [wso.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/WSO%20Shell/wso.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/WSO%20Shell/wso.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/WSO%20Shell) |
 | Webadmin Shell | [webadmin.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/Webadmin%20Shell/webadmin.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Webadmin%20Shell/webadmin.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/Webadmin%20Shell) |
 | X0MB13 Shell | [x0mb13.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/X0MB13%20Shell/x0mb13.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/X0MB13%20Shell/x0mb13.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/X0MB13%20Shell) |
 | Yanz Web Shell | [yanz.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/Yanz%20Web%20Shell/yanz.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/Yanz%20Web%20Shell/yanz.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/Yanz%20Web%20Shell) |
@@ -86,16 +86,13 @@
 | b1ng0 Shell | [b1ng0.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/b1ng0%20Shell/b1ng0.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/b1ng0%20Shell/b1ng0.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/b1ng0%20Shell) |
 | b374k V 2.8 Shell | [b374k.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/b374k%20V%202.8%20Shell/b374k.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/b374k%20V%202.8%20Shell/b374k.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/b374k%20V%202.8%20Shell) |
 | b374k priv8 Shell | [b374kpriv8.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/b374k%20priv8%20Shell/b374kpriv8.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/b374k%20priv8%20Shell/b374kpriv8.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/b374k%20priv8%20Shell) |
-| c99 V 2.0 Shell | [c99.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/c99%20V%202.0%20Shell/c99.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/c99%20V%202.0%20Shell/c99.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/c99%20V%202.0%20Shell) |
-| fox WSO Shell | [foxwso.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/fox%20WSO%20Shell/foxwso.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/fox%20WSO%20Shell/foxwso.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/fox%20WSO%20Shell) |
 | ghost287 WSO Shell | [wso.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/ghost287%20WSO%20Shell/wso.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/ghost287%20WSO%20Shell/wso.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/ghost287%20WSO%20Shell) |
 | green WSO Shell | [greeenwso.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/green%20WSO%20Shell/greenwso.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/green%20WSO%20Shell/greenwso.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/green%20WSO%20Shell) |
 | r57 Shell | [r57.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/r57%20Shell/r57.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/r57%20Shell/r57.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/r57%20Shell) |
 | sorean9exploit Shell | [shell.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/sorean9exploit%20Shell/shell.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/sorean9exploit%20Shell/sorean9exploit.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/sorean9exploit%20Shell) |
 | uploader with pass | [uploader.php](https://raw.githubusercontent.com/1337r0j4n/webshells/main/SHELLs/uploader%20with%20pass/uploader.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/uploader%20with%20pass/uploader.zip) | [screenshot](https://github.com/1337r0j4n/webshells/tree/main/SHELLs/uploader%20with%20pass) |
-| v3n0m WOS Shell | [v3n0m.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/v3n0m%20WOS%20Shell/v3n0m.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/v3n0m%20WOS%20Shell/v3n0m.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/v3n0m%20WOS%20Shell) |
 | xLeet WSO Shell | [xleet.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/xLeet%20WSO%20Shell/xleet.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/xLeet%20WSO%20Shell/xleet.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/xLeet%20WSO%20Shell) |
-| zerobyte Shell | [zerobyte.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/zerobyte%20Shell/zerobyte.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/zerobyte%20Shell/zerobyte.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/zerobyte%20Shell) |
+| zerobyte Shell * | [zerobyte.php](https://raw.githubusercontent.com/1337r0j4n/php-backdoors/main/SHELLs/zerobyte%20Shell/zerobyte.php) / [zip](https://github.com/1337r0j4n/php-backdoors/raw/main/SHELLs/zerobyte%20Shell/zerobyte.zip) | [screenshot](https://github.com/1337r0j4n/php-backdoors/tree/main/SHELLs/zerobyte%20Shell) |
 
 ### Features 
 - **easy to download**
@@ -113,20 +110,7 @@
 
 ----
 
- ### the shells that can bypass WAF
-
-```
-- Dadsec WSO Shell **
-- Elep FileManager ****
-- Gecko Shell **
-- Ultra Shell *
-- LiteSpeed Bypass Shell ***
-- LeetGh0sts's BYPASS SHELL *****
-- Pr1v5H3!! Shell ***
-- ZERO Shell *
-- zerobyte Shell **
-```
-> \* mean the most recommended shell that I should use. :D
+> \* mean the most recommended shell that I should use. <3
 
 ---
 
