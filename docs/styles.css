@@ -1,54 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #1c1e22;
-    color: #fff;
+    background-color: #24292e;
+    font-family: "M PLUS 1 Code", monospace;
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    padding: 20px;
 }
 
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 20px;
+    justify-content: center;
+    align-items: start;
 }
 
 .card {
-    background-color: #2b2d31;
+    background-color: white;
+    border: 2px solid #ccc;
     border-radius: 8px;
-    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
 }
 
 .card img {
     width: 100%;
     height: auto;
-    border-radius: 4px;
-    margin-bottom: 10px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
-.card h3 {
+.card h2 {
+    font-size: 18px;
     margin: 10px 0;
-    font-size: 1.5em;
-    color: #fff;
+    font-weight: bold;
+    color: #333;
 }
 
-.card p {
-    margin: 0;
-    font-size: 1em;
-    color: #ddd;
+.source {
+    margin-top: 10px;
+    color: #0056b3;
+    font-size: 14px;
 }
 
-.card a {
-    color: #1e90ff;
+.source a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.source a:hover {
+    text-decoration: underline overline;
+    color: #0056b3;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+footer a {
+    color: #007bff;
     text-decoration: none;
 }
 
-.card a:hover {
-    text-decoration: underline;
+footer a:hover {
+    text-decoration: underline overline;
 }
