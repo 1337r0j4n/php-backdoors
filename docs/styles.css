@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap');
-
 body {
     background-color: #24292e;
     font-family: "M PLUS 1 Code", monospace;
@@ -12,49 +11,66 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     justify-content: center;
-    align-items: start;
+    align-items: center;
 }
 
 .card {
     background-color: white;
-    border: 2px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    max-width: 100%;
 }
 
 .card img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
     cursor: pointer;
-}
-
-.card h2 {
-    font-size: 18px;
-    margin: 10px 0;
-    font-weight: bold;
-    color: #333;
+    border-radius: 8px;
 }
 
 .source {
     margin-top: 10px;
-    color: #0056b3;
-    font-size: 14px;
-}
-
-.source a {
     text-decoration: none;
     color: #0056b3;
+    font-size: 16px;
 }
 
-.source a:hover {
+.source:hover {
     text-decoration: underline overline;
     color: #0056b3;
 }
 
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
 footer {
     margin-top: 20px;
     text-align: center;
