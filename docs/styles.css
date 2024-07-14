@@ -1,54 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap');
 body {
-    font-family: Arial, sans-serif;
-    background-color: #1c1e22;
-    color: #fff;
+    background-color: #24292e;
+    font-family: "M PLUS 1 Code", monospace;
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    padding: 20px;
 }
 
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
-    background-color: #2b2d31;
+    background-color: white;
     border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
     width: 100%;
     height: auto;
-    border-radius: 4px;
-    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 8px;
 }
 
-.card h3 {
-    margin: 10px 0;
-    font-size: 1.5em;
-    color: #fff;
+.source {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0056b3;
+    font-size: 16px;
 }
 
-.card p {
-    margin: 0;
-    font-size: 1em;
-    color: #ddd;
+.source:hover {
+    text-decoration: underline overline;
+    color: #0056b3;
 }
 
-.card a {
-    color: #1e90ff;
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+footer a {
+    color: #007bff;
     text-decoration: none;
 }
 
-.card a:hover {
-    text-decoration: underline;
+footer a:hover {
+    text-decoration: underline overline;
 }
