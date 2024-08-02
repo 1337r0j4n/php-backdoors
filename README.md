@@ -12,13 +12,13 @@
 <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2F1337r0j4n%2Fphp-backdoors&countColor=%23263759">
 </p>
 
-<p align="center">
 <h2 align="center">Wide view github page</h2>
+<p align="center">
 <img src="https://1337r0j4n.github.io/php-backdoors/images/Screencast.gif">
 </p>
 
 <p align="center">
-<a herf="https://1337r0j4n.github.io/php-backdoors">https://1337r0j4n.github.io/php-backdoors</a>
+https://1337r0j4n.github.io/php-backdoors
 </p>
 
 | NAME | DOWNLOAD ( RAW / ZIP ) | PREVIEW IMG of SHELL INDEX |
